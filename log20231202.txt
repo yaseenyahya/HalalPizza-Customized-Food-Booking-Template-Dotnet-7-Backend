@@ -1,0 +1,275 @@
+2023-12-02 00:00:06.814 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7275/api/users/login - -
+2023-12-02 00:00:06.822 +05:00 [INF] CORS policy execution successful.
+2023-12-02 00:00:06.823 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7275/api/users/login - - - 204 - - 9.7562ms
+2023-12-02 00:00:06.827 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7275/api/users/login application/json 38
+2023-12-02 00:00:06.828 +05:00 [INF] CORS policy execution successful.
+2023-12-02 00:00:06.828 +05:00 [INF] Executing endpoint 'UserDetailsController.Login (halalpizzabackend)'
+2023-12-02 00:00:06.829 +05:00 [INF] Route matched with {action = "Login", controller = "UserDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(halalpizzabackend.Models.LoginModel) on controller UserDetailsController (halalpizzabackend).
+2023-12-02 00:00:06.871 +05:00 [INF] dbug: 12/2/2023 00:00:06.871 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.13 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:7.0.0' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled ServerVersion 8.0.34-mysql 
+2023-12-02 00:00:06.873 +05:00 [INF] dbug: 12/2/2023 00:00:06.873 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2023-12-02 00:00:06.874 +05:00 [INF] dbug: 12/2/2023 00:00:06.874 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2023-12-02 00:00:06.876 +05:00 [INF] dbug: 12/2/2023 00:00:06.876 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+2023-12-02 00:00:06.877 +05:00 [INF] dbug: 12/2/2023 00:00:06.877 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (3ms).
+2023-12-02 00:00:06.878 +05:00 [INF] dbug: 12/2/2023 00:00:06.878 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (4ms).
+2023-12-02 00:00:06.879 +05:00 [INF] dbug: 12/2/2023 00:00:06.879 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:06.881 +05:00 [INF] dbug: 12/2/2023 00:00:06.881 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:06.882 +05:00 [INF] dbug: 12/2/2023 00:00:06.882 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@__username_0='admin' (Size = 100), @__hashedPassword_1='2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea' (Size = 100)], CommandType='Text', CommandTimeout='30']
+      SELECT `u`.`ID`, `u`.`Avatar`, `u`.`BlockComments`, `u`.`CountryCode`, `u`.`Email`, `u`.`MobileNumber`, `u`.`Name`, `u`.`Password`, `u`.`Role`, `u`.`SettingsJSON`, `u`.`Status`, `u`.`Username`
+      FROM `UserDetails` AS `u`
+      WHERE (`u`.`Username` = @__username_0) AND (`u`.`Password` = @__hashedPassword_1)
+      LIMIT 1
+2023-12-02 00:00:06.884 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__username_0='admin' (Size = 100), @__hashedPassword_1='2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`ID`, `u`.`Avatar`, `u`.`BlockComments`, `u`.`CountryCode`, `u`.`Email`, `u`.`MobileNumber`, `u`.`Name`, `u`.`Password`, `u`.`Role`, `u`.`SettingsJSON`, `u`.`Status`, `u`.`Username`
+FROM `UserDetails` AS `u`
+WHERE (`u`.`Username` = @__username_0) AND (`u`.`Password` = @__hashedPassword_1)
+LIMIT 1
+2023-12-02 00:00:06.887 +05:00 [INF] info: 12/2/2023 00:00:06.887 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[@__username_0='admin' (Size = 100), @__hashedPassword_1='2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea' (Size = 100)], CommandType='Text', CommandTimeout='30']
+      SELECT `u`.`ID`, `u`.`Avatar`, `u`.`BlockComments`, `u`.`CountryCode`, `u`.`Email`, `u`.`MobileNumber`, `u`.`Name`, `u`.`Password`, `u`.`Role`, `u`.`SettingsJSON`, `u`.`Status`, `u`.`Username`
+      FROM `UserDetails` AS `u`
+      WHERE (`u`.`Username` = @__username_0) AND (`u`.`Password` = @__hashedPassword_1)
+      LIMIT 1
+2023-12-02 00:00:06.888 +05:00 [INF] dbug: 12/2/2023 00:00:06.888 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'ApplicationDbContext' started tracking 'UserDetails' entity with key '{ID: 1}'.
+2023-12-02 00:00:06.889 +05:00 [INF] dbug: 12/2/2023 00:00:06.889 RelationalEventId.DataReaderClosing[20301] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Closing data reader to 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:06.890 +05:00 [INF] dbug: 12/2/2023 00:00:06.890 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader for 'halalpizza' on server 'localhost' is being disposed after spending 2ms reading results.
+2023-12-02 00:00:06.891 +05:00 [INF] dbug: 12/2/2023 00:00:06.891 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:06.892 +05:00 [INF] dbug: 12/2/2023 00:00:06.892 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2023-12-02 00:00:06.893 +05:00 [INF] Executing OkObjectResult, writing value of type 'halalpizzabackend.Models.UserDetails'.
+2023-12-02 00:00:06.894 +05:00 [INF] Executed action UserDetailsController.Login (halalpizzabackend) in 24.2003ms
+2023-12-02 00:00:06.896 +05:00 [INF] Executed endpoint 'UserDetailsController.Login (halalpizzabackend)'
+2023-12-02 00:00:06.897 +05:00 [INF] dbug: 12/2/2023 00:00:06.897 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'ApplicationDbContext' disposed.
+2023-12-02 00:00:06.898 +05:00 [INF] dbug: 12/2/2023 00:00:06.898 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:06.899 +05:00 [INF] dbug: 12/2/2023 00:00:06.899 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'halalpizza' on server 'localhost' (0ms).
+2023-12-02 00:00:06.900 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7275/api/users/login application/json 38 - 200 - application/json;+charset=utf-8 73.6537ms
+2023-12-02 00:00:07.020 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7275/api/users/all - -
+2023-12-02 00:00:07.021 +05:00 [INF] CORS policy execution successful.
+2023-12-02 00:00:07.022 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7275/api/users/all - - - 204 - - 2.2259ms
+2023-12-02 00:00:07.026 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/api/users/all application/json -
+2023-12-02 00:00:07.027 +05:00 [INF] CORS policy execution successful.
+2023-12-02 00:00:07.027 +05:00 [INF] Executing endpoint 'UserDetailsController.GetAllUsers (halalpizzabackend)'
+2023-12-02 00:00:07.029 +05:00 [INF] Route matched with {action = "GetAllUsers", controller = "UserDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllUsers() on controller UserDetailsController (halalpizzabackend).
+2023-12-02 00:00:07.031 +05:00 [INF] dbug: 12/2/2023 00:00:07.031 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.13 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:7.0.0' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled ServerVersion 8.0.34-mysql 
+2023-12-02 00:00:07.032 +05:00 [INF] dbug: 12/2/2023 00:00:07.032 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2023-12-02 00:00:07.033 +05:00 [INF] dbug: 12/2/2023 00:00:07.033 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2023-12-02 00:00:07.034 +05:00 [INF] dbug: 12/2/2023 00:00:07.034 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+2023-12-02 00:00:07.035 +05:00 [INF] dbug: 12/2/2023 00:00:07.035 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (2ms).
+2023-12-02 00:00:07.036 +05:00 [INF] dbug: 12/2/2023 00:00:07.036 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (3ms).
+2023-12-02 00:00:07.037 +05:00 [INF] dbug: 12/2/2023 00:00:07.037 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:07.038 +05:00 [INF] dbug: 12/2/2023 00:00:07.038 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:07.039 +05:00 [INF] dbug: 12/2/2023 00:00:07.039 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `u`.`ID`, `u`.`Avatar`, `u`.`BlockComments`, `u`.`CountryCode`, `u`.`Email`, `u`.`MobileNumber`, `u`.`Name`, `u`.`Password`, `u`.`Role`, `u`.`SettingsJSON`, `u`.`Status`, `u`.`Username`
+      FROM `UserDetails` AS `u`
+2023-12-02 00:00:07.040 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`ID`, `u`.`Avatar`, `u`.`BlockComments`, `u`.`CountryCode`, `u`.`Email`, `u`.`MobileNumber`, `u`.`Name`, `u`.`Password`, `u`.`Role`, `u`.`SettingsJSON`, `u`.`Status`, `u`.`Username`
+FROM `UserDetails` AS `u`
+2023-12-02 00:00:07.042 +05:00 [INF] info: 12/2/2023 00:00:07.042 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `u`.`ID`, `u`.`Avatar`, `u`.`BlockComments`, `u`.`CountryCode`, `u`.`Email`, `u`.`MobileNumber`, `u`.`Name`, `u`.`Password`, `u`.`Role`, `u`.`SettingsJSON`, `u`.`Status`, `u`.`Username`
+      FROM `UserDetails` AS `u`
+2023-12-02 00:00:07.043 +05:00 [INF] dbug: 12/2/2023 00:00:07.043 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'ApplicationDbContext' started tracking 'UserDetails' entity with key '{ID: 1}'.
+2023-12-02 00:00:07.045 +05:00 [INF] dbug: 12/2/2023 00:00:07.045 RelationalEventId.DataReaderClosing[20301] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Closing data reader to 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:07.046 +05:00 [INF] dbug: 12/2/2023 00:00:07.046 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader for 'halalpizza' on server 'localhost' is being disposed after spending 2ms reading results.
+2023-12-02 00:00:07.047 +05:00 [INF] dbug: 12/2/2023 00:00:07.047 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:07.048 +05:00 [INF] dbug: 12/2/2023 00:00:07.048 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (1ms).
+2023-12-02 00:00:07.049 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[halalpizzabackend.Models.UserDetails, halalpizzabackend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-02 00:00:07.050 +05:00 [INF] Executed action UserDetailsController.GetAllUsers (halalpizzabackend) in 20.2046ms
+2023-12-02 00:00:07.052 +05:00 [INF] Executed endpoint 'UserDetailsController.GetAllUsers (halalpizzabackend)'
+2023-12-02 00:00:07.053 +05:00 [INF] dbug: 12/2/2023 00:00:07.053 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'ApplicationDbContext' disposed.
+2023-12-02 00:00:07.055 +05:00 [INF] dbug: 12/2/2023 00:00:07.055 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:07.056 +05:00 [INF] dbug: 12/2/2023 00:00:07.056 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'halalpizza' on server 'localhost' (1ms).
+2023-12-02 00:00:07.057 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/api/users/all application/json - - 200 - application/json;+charset=utf-8 31.2808ms
+2023-12-02 00:00:25.868 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7275/api/categories/all - -
+2023-12-02 00:00:25.869 +05:00 [INF] CORS policy execution successful.
+2023-12-02 00:00:25.870 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7275/api/categories/all - - - 204 - - 1.9770ms
+2023-12-02 00:00:25.873 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/api/categories/all application/json -
+2023-12-02 00:00:25.874 +05:00 [INF] CORS policy execution successful.
+2023-12-02 00:00:25.875 +05:00 [INF] Executing endpoint 'CategoriesController.GetAllCategories (halalpizzabackend)'
+2023-12-02 00:00:25.876 +05:00 [INF] Route matched with {action = "GetAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories() on controller CategoriesController (halalpizzabackend).
+2023-12-02 00:00:25.879 +05:00 [INF] dbug: 12/2/2023 00:00:25.879 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.13 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:7.0.0' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled ServerVersion 8.0.34-mysql 
+2023-12-02 00:00:25.880 +05:00 [INF] dbug: 12/2/2023 00:00:25.880 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2023-12-02 00:00:25.881 +05:00 [INF] dbug: 12/2/2023 00:00:25.881 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2023-12-02 00:00:25.881 +05:00 [INF] dbug: 12/2/2023 00:00:25.881 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+2023-12-02 00:00:25.882 +05:00 [INF] dbug: 12/2/2023 00:00:25.882 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (2ms).
+2023-12-02 00:00:25.883 +05:00 [INF] dbug: 12/2/2023 00:00:25.883 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (3ms).
+2023-12-02 00:00:25.884 +05:00 [INF] dbug: 12/2/2023 00:00:25.884 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:25.886 +05:00 [INF] dbug: 12/2/2023 00:00:25.886 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:25.887 +05:00 [INF] dbug: 12/2/2023 00:00:25.887 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `c`.`ID`, `c`.`Name`
+      FROM `Categories` AS `c`
+2023-12-02 00:00:25.888 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`ID`, `c`.`Name`
+FROM `Categories` AS `c`
+2023-12-02 00:00:25.890 +05:00 [INF] info: 12/2/2023 00:00:25.890 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `c`.`ID`, `c`.`Name`
+      FROM `Categories` AS `c`
+2023-12-02 00:00:25.892 +05:00 [INF] dbug: 12/2/2023 00:00:25.892 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'ApplicationDbContext' started tracking 'Categories' entity with key '{ID: 4}'.
+2023-12-02 00:00:25.893 +05:00 [INF] dbug: 12/2/2023 00:00:25.893 RelationalEventId.DataReaderClosing[20301] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Closing data reader to 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:25.895 +05:00 [INF] dbug: 12/2/2023 00:00:25.895 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader for 'halalpizza' on server 'localhost' is being disposed after spending 2ms reading results.
+2023-12-02 00:00:25.896 +05:00 [INF] dbug: 12/2/2023 00:00:25.896 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:25.897 +05:00 [INF] dbug: 12/2/2023 00:00:25.897 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (1ms).
+2023-12-02 00:00:25.899 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[halalpizzabackend.Models.Categories, halalpizzabackend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-02 00:00:25.900 +05:00 [INF] Executed action CategoriesController.GetAllCategories (halalpizzabackend) in 22.1756ms
+2023-12-02 00:00:25.902 +05:00 [INF] Executed endpoint 'CategoriesController.GetAllCategories (halalpizzabackend)'
+2023-12-02 00:00:25.904 +05:00 [INF] dbug: 12/2/2023 00:00:25.904 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'ApplicationDbContext' disposed.
+2023-12-02 00:00:25.906 +05:00 [INF] dbug: 12/2/2023 00:00:25.906 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:25.907 +05:00 [INF] dbug: 12/2/2023 00:00:25.907 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'halalpizza' on server 'localhost' (1ms).
+2023-12-02 00:00:25.908 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/api/categories/all application/json - - 200 - application/json;+charset=utf-8 35.6641ms
+2023-12-02 00:00:28.687 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/api/categories/all application/json -
+2023-12-02 00:00:28.688 +05:00 [INF] CORS policy execution successful.
+2023-12-02 00:00:28.689 +05:00 [INF] Executing endpoint 'CategoriesController.GetAllCategories (halalpizzabackend)'
+2023-12-02 00:00:28.690 +05:00 [INF] Route matched with {action = "GetAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories() on controller CategoriesController (halalpizzabackend).
+2023-12-02 00:00:28.692 +05:00 [INF] dbug: 12/2/2023 00:00:28.692 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.13 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:7.0.0' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled ServerVersion 8.0.34-mysql 
+2023-12-02 00:00:28.693 +05:00 [INF] dbug: 12/2/2023 00:00:28.693 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2023-12-02 00:00:28.694 +05:00 [INF] dbug: 12/2/2023 00:00:28.694 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2023-12-02 00:00:28.695 +05:00 [INF] dbug: 12/2/2023 00:00:28.695 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+2023-12-02 00:00:28.696 +05:00 [INF] dbug: 12/2/2023 00:00:28.696 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (2ms).
+2023-12-02 00:00:28.696 +05:00 [INF] dbug: 12/2/2023 00:00:28.696 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (3ms).
+2023-12-02 00:00:28.697 +05:00 [INF] dbug: 12/2/2023 00:00:28.697 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:28.698 +05:00 [INF] dbug: 12/2/2023 00:00:28.698 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:28.699 +05:00 [INF] dbug: 12/2/2023 00:00:28.699 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `c`.`ID`, `c`.`Name`
+      FROM `Categories` AS `c`
+2023-12-02 00:00:28.700 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`ID`, `c`.`Name`
+FROM `Categories` AS `c`
+2023-12-02 00:00:28.702 +05:00 [INF] info: 12/2/2023 00:00:28.702 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `c`.`ID`, `c`.`Name`
+      FROM `Categories` AS `c`
+2023-12-02 00:00:28.703 +05:00 [INF] dbug: 12/2/2023 00:00:28.703 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'ApplicationDbContext' started tracking 'Categories' entity with key '{ID: 4}'.
+2023-12-02 00:00:28.704 +05:00 [INF] dbug: 12/2/2023 00:00:28.704 RelationalEventId.DataReaderClosing[20301] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Closing data reader to 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:28.705 +05:00 [INF] dbug: 12/2/2023 00:00:28.705 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader for 'halalpizza' on server 'localhost' is being disposed after spending 2ms reading results.
+2023-12-02 00:00:28.706 +05:00 [INF] dbug: 12/2/2023 00:00:28.706 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:28.707 +05:00 [INF] dbug: 12/2/2023 00:00:28.707 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2023-12-02 00:00:28.708 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[halalpizzabackend.Models.Categories, halalpizzabackend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-02 00:00:28.710 +05:00 [INF] Executed action CategoriesController.GetAllCategories (halalpizzabackend) in 18.5566ms
+2023-12-02 00:00:28.712 +05:00 [INF] Executed endpoint 'CategoriesController.GetAllCategories (halalpizzabackend)'
+2023-12-02 00:00:28.713 +05:00 [INF] dbug: 12/2/2023 00:00:28.713 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'ApplicationDbContext' disposed.
+2023-12-02 00:00:28.714 +05:00 [INF] dbug: 12/2/2023 00:00:28.714 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:28.716 +05:00 [INF] dbug: 12/2/2023 00:00:28.716 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'halalpizza' on server 'localhost' (1ms).
+2023-12-02 00:00:28.717 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/api/categories/all application/json - - 200 - application/json;+charset=utf-8 30.2819ms
+2023-12-02 00:00:29.939 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7275/api/sliders/all - -
+2023-12-02 00:00:29.940 +05:00 [INF] CORS policy execution successful.
+2023-12-02 00:00:29.940 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7275/api/sliders/all - - - 204 - - 1.6808ms
+2023-12-02 00:00:29.943 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/api/sliders/all application/json -
+2023-12-02 00:00:29.944 +05:00 [INF] CORS policy execution successful.
+2023-12-02 00:00:29.944 +05:00 [INF] Executing endpoint 'SliderSettingsController.GetAllSliders (halalpizzabackend)'
+2023-12-02 00:00:29.945 +05:00 [INF] Route matched with {action = "GetAllSliders", controller = "SliderSettings"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllSliders() on controller SliderSettingsController (halalpizzabackend).
+2023-12-02 00:00:29.947 +05:00 [INF] dbug: 12/2/2023 00:00:29.947 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.13 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:7.0.0' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled ServerVersion 8.0.34-mysql 
+2023-12-02 00:00:29.948 +05:00 [INF] dbug: 12/2/2023 00:00:29.948 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2023-12-02 00:00:29.949 +05:00 [INF] dbug: 12/2/2023 00:00:29.949 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2023-12-02 00:00:29.950 +05:00 [INF] dbug: 12/2/2023 00:00:29.950 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+2023-12-02 00:00:29.951 +05:00 [INF] dbug: 12/2/2023 00:00:29.951 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (2ms).
+2023-12-02 00:00:29.951 +05:00 [INF] dbug: 12/2/2023 00:00:29.951 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (3ms).
+2023-12-02 00:00:29.952 +05:00 [INF] dbug: 12/2/2023 00:00:29.952 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:29.953 +05:00 [INF] dbug: 12/2/2023 00:00:29.953 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:29.954 +05:00 [INF] dbug: 12/2/2023 00:00:29.954 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `s`.`ID`, `s`.`Enabled`, `s`.`Link`, `s`.`Path`
+      FROM `SliderSettings` AS `s`
+2023-12-02 00:00:29.955 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `s`.`ID`, `s`.`Enabled`, `s`.`Link`, `s`.`Path`
+FROM `SliderSettings` AS `s`
+2023-12-02 00:00:29.956 +05:00 [INF] info: 12/2/2023 00:00:29.956 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `s`.`ID`, `s`.`Enabled`, `s`.`Link`, `s`.`Path`
+      FROM `SliderSettings` AS `s`
+2023-12-02 00:00:29.957 +05:00 [INF] dbug: 12/2/2023 00:00:29.957 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'ApplicationDbContext' started tracking 'SliderSettings' entity with key '{ID: 12}'.
+2023-12-02 00:00:29.958 +05:00 [INF] dbug: 12/2/2023 00:00:29.958 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'ApplicationDbContext' started tracking 'SliderSettings' entity with key '{ID: 13}'.
+2023-12-02 00:00:29.959 +05:00 [INF] dbug: 12/2/2023 00:00:29.959 RelationalEventId.DataReaderClosing[20301] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Closing data reader to 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:29.959 +05:00 [INF] dbug: 12/2/2023 00:00:29.959 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader for 'halalpizza' on server 'localhost' is being disposed after spending 2ms reading results.
+2023-12-02 00:00:29.960 +05:00 [INF] dbug: 12/2/2023 00:00:29.960 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:29.961 +05:00 [INF] dbug: 12/2/2023 00:00:29.961 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2023-12-02 00:00:29.961 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[halalpizzabackend.Models.SliderSettings, halalpizzabackend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-02 00:00:29.963 +05:00 [INF] Executed action SliderSettingsController.GetAllSliders (halalpizzabackend) in 16.1459ms
+2023-12-02 00:00:29.964 +05:00 [INF] Executed endpoint 'SliderSettingsController.GetAllSliders (halalpizzabackend)'
+2023-12-02 00:00:29.965 +05:00 [INF] dbug: 12/2/2023 00:00:29.965 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'ApplicationDbContext' disposed.
+2023-12-02 00:00:29.966 +05:00 [INF] dbug: 12/2/2023 00:00:29.966 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'halalpizza' on server 'localhost'.
+2023-12-02 00:00:29.967 +05:00 [INF] dbug: 12/2/2023 00:00:29.967 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'halalpizza' on server 'localhost' (0ms).
+2023-12-02 00:00:29.967 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/api/sliders/all application/json - - 200 - application/json;+charset=utf-8 24.7032ms

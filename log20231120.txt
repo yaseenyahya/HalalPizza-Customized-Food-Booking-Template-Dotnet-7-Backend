@@ -1,0 +1,13 @@
+2023-11-20 02:28:58.895 +05:00 [INF] Now listening on: https://localhost:7275
+2023-11-20 02:28:59.049 +05:00 [INF] Now listening on: http://localhost:5001
+2023-11-20 02:28:59.053 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-20 02:28:59.054 +05:00 [INF] Hosting environment: Development
+2023-11-20 02:28:59.055 +05:00 [INF] Content root path: D:\c# Project\halalpizzabackend
+2023-11-20 02:29:40.415 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - -
+2023-11-20 02:29:43.944 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - - - 200 - text/html;charset=utf-8 3502.2458ms
+2023-11-20 02:29:44.144 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - -
+2023-11-20 02:29:44.219 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - -
+2023-11-20 02:29:44.307 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 163.9350ms
+2023-11-20 02:29:44.518 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 299.5517ms
+2023-11-20 02:29:45.280 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - -
+2023-11-20 02:29:47.801 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2521.1625ms

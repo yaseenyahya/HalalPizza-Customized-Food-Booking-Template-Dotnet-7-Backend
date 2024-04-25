@@ -1,0 +1,1983 @@
+2024-01-09 17:55:26.786 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 17:55:26.826 +05:00 [INF] warn: 1/9/2024 17:55:26.825 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 17:55:27.016 +05:00 [INF] dbug: 1/9/2024 17:55:27.016 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.13 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:7.0.0' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled ServerVersion 8.0.34-mysql 
+2024-01-09 17:55:27.458 +05:00 [INF] dbug: 1/9/2024 17:55:27.458 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'ApplicationDbContext' disposed.
+2024-01-09 17:55:33.021 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 17:55:33.060 +05:00 [INF] warn: 1/9/2024 17:55:33.059 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 17:55:33.244 +05:00 [INF] dbug: 1/9/2024 17:55:33.244 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.13 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:7.0.0' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled ServerVersion 8.0.34-mysql 
+2024-01-09 17:55:33.263 +05:00 [INF] dbug: 1/9/2024 17:55:33.263 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 17:55:33.268 +05:00 [INF] dbug: 1/9/2024 17:55:33.267 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (3ms).
+2024-01-09 17:55:33.317 +05:00 [INF] dbug: 1/9/2024 17:55:33.317 RelationalEventId.MigrateUsingConnection[20400] (Microsoft.EntityFrameworkCore.Migrations) 
+      Migrating using database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:33.321 +05:00 [INF] dbug: 1/9/2024 17:55:33.321 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 17:55:33.321 +05:00 [INF] dbug: 1/9/2024 17:55:33.321 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2024-01-09 17:55:33.323 +05:00 [INF] dbug: 1/9/2024 17:55:33.323 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database '' on server 'localhost'.
+2024-01-09 17:55:33.390 +05:00 [INF] dbug: 1/9/2024 17:55:33.390 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database '' on server 'localhost'.
+2024-01-09 17:55:33.523 +05:00 [INF] dbug: 1/9/2024 17:55:33.523 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database '' on server 'localhost'.
+2024-01-09 17:55:33.527 +05:00 [INF] dbug: 1/9/2024 17:55:33.527 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database '' on server 'localhost' (1ms).
+2024-01-09 17:55:33.534 +05:00 [INF] dbug: 1/9/2024 17:55:33.534 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+2024-01-09 17:55:33.538 +05:00 [INF] dbug: 1/9/2024 17:55:33.538 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (2ms).
+2024-01-09 17:55:33.540 +05:00 [INF] dbug: 1/9/2024 17:55:33.540 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (6ms).
+2024-01-09 17:55:33.540 +05:00 [INF] dbug: 1/9/2024 17:55:33.540 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:33.553 +05:00 [INF] dbug: 1/9/2024 17:55:33.552 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:33.557 +05:00 [INF] dbug: 1/9/2024 17:55:33.557 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 17:55:33.602 +05:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 17:55:33.610 +05:00 [INF] info: 1/9/2024 17:55:33.610 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (41ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 17:55:33.612 +05:00 [INF] dbug: 1/9/2024 17:55:33.612 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:33.615 +05:00 [INF] dbug: 1/9/2024 17:55:33.615 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (2ms).
+2024-01-09 17:55:33.615 +05:00 [INF] dbug: 1/9/2024 17:55:33.615 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 17:55:33.615 +05:00 [INF] dbug: 1/9/2024 17:55:33.615 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2024-01-09 17:55:33.615 +05:00 [INF] dbug: 1/9/2024 17:55:33.615 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database '' on server 'localhost'.
+2024-01-09 17:55:33.617 +05:00 [INF] dbug: 1/9/2024 17:55:33.617 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database '' on server 'localhost'.
+2024-01-09 17:55:33.618 +05:00 [INF] dbug: 1/9/2024 17:55:33.618 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database '' on server 'localhost'.
+2024-01-09 17:55:33.618 +05:00 [INF] dbug: 1/9/2024 17:55:33.618 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database '' on server 'localhost' (0ms).
+2024-01-09 17:55:33.833 +05:00 [INF] dbug: 1/9/2024 17:55:33.833 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 17:55:33.834 +05:00 [INF] dbug: 1/9/2024 17:55:33.834 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:33.834 +05:00 [INF] dbug: 1/9/2024 17:55:33.834 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:33.834 +05:00 [INF] dbug: 1/9/2024 17:55:33.834 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:33.838 +05:00 [INF] dbug: 1/9/2024 17:55:33.838 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:33.839 +05:00 [INF] dbug: 1/9/2024 17:55:33.839 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `__EFMigrationsHistory` (
+          `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+          `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+          CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:34.530 +05:00 [INF] Executed DbCommand (691ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:34.530 +05:00 [INF] info: 1/9/2024 17:55:34.530 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (691ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `__EFMigrationsHistory` (
+          `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+          `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+          CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:34.530 +05:00 [INF] dbug: 1/9/2024 17:55:34.530 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:34.530 +05:00 [INF] dbug: 1/9/2024 17:55:34.530 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 17:55:34.531 +05:00 [INF] dbug: 1/9/2024 17:55:34.531 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 17:55:34.532 +05:00 [INF] dbug: 1/9/2024 17:55:34.532 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2024-01-09 17:55:34.532 +05:00 [INF] dbug: 1/9/2024 17:55:34.532 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database '' on server 'localhost'.
+2024-01-09 17:55:34.533 +05:00 [INF] dbug: 1/9/2024 17:55:34.533 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database '' on server 'localhost'.
+2024-01-09 17:55:34.534 +05:00 [INF] dbug: 1/9/2024 17:55:34.534 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database '' on server 'localhost'.
+2024-01-09 17:55:34.534 +05:00 [INF] dbug: 1/9/2024 17:55:34.534 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database '' on server 'localhost' (0ms).
+2024-01-09 17:55:34.534 +05:00 [INF] dbug: 1/9/2024 17:55:34.534 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+2024-01-09 17:55:34.534 +05:00 [INF] dbug: 1/9/2024 17:55:34.534 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+2024-01-09 17:55:34.534 +05:00 [INF] dbug: 1/9/2024 17:55:34.534 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-01-09 17:55:34.534 +05:00 [INF] dbug: 1/9/2024 17:55:34.534 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:34.535 +05:00 [INF] dbug: 1/9/2024 17:55:34.535 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:34.535 +05:00 [INF] dbug: 1/9/2024 17:55:34.535 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 17:55:34.538 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 17:55:34.539 +05:00 [INF] info: 1/9/2024 17:55:34.539 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 17:55:34.568 +05:00 [INF] dbug: 1/9/2024 17:55:34.568 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:34.568 +05:00 [INF] dbug: 1/9/2024 17:55:34.568 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 17:55:34.570 +05:00 [INF] dbug: 1/9/2024 17:55:34.570 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+2024-01-09 17:55:34.570 +05:00 [INF] dbug: 1/9/2024 17:55:34.570 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+2024-01-09 17:55:34.570 +05:00 [INF] dbug: 1/9/2024 17:55:34.570 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-01-09 17:55:34.570 +05:00 [INF] dbug: 1/9/2024 17:55:34.570 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:34.571 +05:00 [INF] dbug: 1/9/2024 17:55:34.571 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:34.572 +05:00 [INF] dbug: 1/9/2024 17:55:34.572 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `MigrationId`, `ProductVersion`
+      FROM `__EFMigrationsHistory`
+      ORDER BY `MigrationId`;
+2024-01-09 17:55:34.574 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2024-01-09 17:55:34.574 +05:00 [INF] info: 1/9/2024 17:55:34.574 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `MigrationId`, `ProductVersion`
+      FROM `__EFMigrationsHistory`
+      ORDER BY `MigrationId`;
+2024-01-09 17:55:34.576 +05:00 [INF] dbug: 1/9/2024 17:55:34.576 RelationalEventId.DataReaderClosing[20301] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Closing data reader to 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:34.578 +05:00 [INF] dbug: 1/9/2024 17:55:34.578 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader for 'halalpizza' on server 'localhost' is being disposed after spending 2ms reading results.
+2024-01-09 17:55:34.578 +05:00 [INF] dbug: 1/9/2024 17:55:34.578 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:34.578 +05:00 [INF] dbug: 1/9/2024 17:55:34.578 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 17:55:34.590 +05:00 [INF] Applying migration '20240109125527_initial'.
+2024-01-09 17:55:34.591 +05:00 [INF] info: 1/9/2024 17:55:34.591 RelationalEventId.MigrationApplying[20402] (Microsoft.EntityFrameworkCore.Migrations) 
+      Applying migration '20240109125527_initial'.
+2024-01-09 17:55:34.675 +05:00 [INF] dbug: 1/9/2024 17:55:34.675 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:34.676 +05:00 [INF] dbug: 1/9/2024 17:55:34.676 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:34.678 +05:00 [INF] dbug: 1/9/2024 17:55:34.678 RelationalEventId.TransactionStarting[20209] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Beginning transaction with isolation level 'Unspecified'.
+2024-01-09 17:55:34.683 +05:00 [INF] dbug: 1/9/2024 17:55:34.683 RelationalEventId.TransactionStarted[20200] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Began transaction with isolation level 'Unspecified'.
+2024-01-09 17:55:34.820 +05:00 [INF] dbug: 1/9/2024 17:55:34.820 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 17:55:34.820 +05:00 [INF] dbug: 1/9/2024 17:55:34.820 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:34.821 +05:00 [INF] dbug: 1/9/2024 17:55:34.821 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:34.821 +05:00 [INF] dbug: 1/9/2024 17:55:34.821 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      ALTER DATABASE CHARACTER SET utf8mb4;
+2024-01-09 17:55:34.822 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2024-01-09 17:55:34.822 +05:00 [INF] info: 1/9/2024 17:55:34.822 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      ALTER DATABASE CHARACTER SET utf8mb4;
+2024-01-09 17:55:34.822 +05:00 [INF] dbug: 1/9/2024 17:55:34.822 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 17:55:34.822 +05:00 [INF] dbug: 1/9/2024 17:55:34.822 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:34.822 +05:00 [INF] dbug: 1/9/2024 17:55:34.822 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:34.822 +05:00 [INF] dbug: 1/9/2024 17:55:34.822 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Addons` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `ProductTitle` nvarchar(250) NOT NULL,
+          `ProductImagePath` nvarchar(300) NOT NULL,
+          `ProductDetails` nvarchar(250) NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          CONSTRAINT `PK_Addons` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:35.121 +05:00 [INF] Executed DbCommand (298ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Addons` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `ProductTitle` nvarchar(250) NOT NULL,
+    `ProductImagePath` nvarchar(300) NOT NULL,
+    `ProductDetails` nvarchar(250) NULL,
+    `ProductPrice` decimal(65,30) NOT NULL,
+    `ProductSalePrice` decimal(65,30) NULL,
+    CONSTRAINT `PK_Addons` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:35.121 +05:00 [INF] info: 1/9/2024 17:55:35.121 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (298ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Addons` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `ProductTitle` nvarchar(250) NOT NULL,
+          `ProductImagePath` nvarchar(300) NOT NULL,
+          `ProductDetails` nvarchar(250) NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          CONSTRAINT `PK_Addons` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:35.121 +05:00 [INF] dbug: 1/9/2024 17:55:35.121 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 17:55:35.121 +05:00 [INF] dbug: 1/9/2024 17:55:35.121 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:35.121 +05:00 [INF] dbug: 1/9/2024 17:55:35.121 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:35.122 +05:00 [INF] dbug: 1/9/2024 17:55:35.122 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Categories` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Name` nvarchar(250) NOT NULL,
+          CONSTRAINT `PK_Categories` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:35.288 +05:00 [INF] Executed DbCommand (166ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Categories` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `Name` nvarchar(250) NOT NULL,
+    CONSTRAINT `PK_Categories` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:35.288 +05:00 [INF] info: 1/9/2024 17:55:35.288 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (166ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Categories` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Name` nvarchar(250) NOT NULL,
+          CONSTRAINT `PK_Categories` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:35.288 +05:00 [INF] dbug: 1/9/2024 17:55:35.288 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 17:55:35.288 +05:00 [INF] dbug: 1/9/2024 17:55:35.288 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:35.288 +05:00 [INF] dbug: 1/9/2024 17:55:35.288 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:35.288 +05:00 [INF] dbug: 1/9/2024 17:55:35.288 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `SliderSettings` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Link` nvarchar(250) NULL,
+          `Path` nvarchar(300) NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_SliderSettings` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:35.588 +05:00 [INF] Executed DbCommand (300ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `SliderSettings` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `Link` nvarchar(250) NULL,
+    `Path` nvarchar(300) NOT NULL,
+    `Enabled` int NOT NULL,
+    CONSTRAINT `PK_SliderSettings` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:35.597 +05:00 [INF] info: 1/9/2024 17:55:35.597 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (300ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `SliderSettings` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Link` nvarchar(250) NULL,
+          `Path` nvarchar(300) NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_SliderSettings` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:35.598 +05:00 [INF] dbug: 1/9/2024 17:55:35.598 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 17:55:35.598 +05:00 [INF] dbug: 1/9/2024 17:55:35.598 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:35.598 +05:00 [INF] dbug: 1/9/2024 17:55:35.598 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:35.598 +05:00 [INF] dbug: 1/9/2024 17:55:35.598 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `UserDetails` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Avatar` longtext CHARACTER SET utf8mb4 NULL,
+          `Name` nvarchar(100) NOT NULL,
+          `Email` nvarchar(100) NULL,
+          `Username` nvarchar(100) NOT NULL,
+          `Password` nvarchar(100) NOT NULL,
+          `Role` int NOT NULL,
+          `CountryCode` nvarchar(100) NULL,
+          `MobileNumber` nvarchar(100) NULL,
+          `BlockComments` nvarchar(300) NULL,
+          `SettingsJSON` longtext CHARACTER SET utf8mb4 NULL,
+          `Status` int NOT NULL,
+          CONSTRAINT `PK_UserDetails` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:35.796 +05:00 [INF] Executed DbCommand (198ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `UserDetails` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `Avatar` longtext CHARACTER SET utf8mb4 NULL,
+    `Name` nvarchar(100) NOT NULL,
+    `Email` nvarchar(100) NULL,
+    `Username` nvarchar(100) NOT NULL,
+    `Password` nvarchar(100) NOT NULL,
+    `Role` int NOT NULL,
+    `CountryCode` nvarchar(100) NULL,
+    `MobileNumber` nvarchar(100) NULL,
+    `BlockComments` nvarchar(300) NULL,
+    `SettingsJSON` longtext CHARACTER SET utf8mb4 NULL,
+    `Status` int NOT NULL,
+    CONSTRAINT `PK_UserDetails` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:35.796 +05:00 [INF] info: 1/9/2024 17:55:35.796 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (198ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `UserDetails` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Avatar` longtext CHARACTER SET utf8mb4 NULL,
+          `Name` nvarchar(100) NOT NULL,
+          `Email` nvarchar(100) NULL,
+          `Username` nvarchar(100) NOT NULL,
+          `Password` nvarchar(100) NOT NULL,
+          `Role` int NOT NULL,
+          `CountryCode` nvarchar(100) NULL,
+          `MobileNumber` nvarchar(100) NULL,
+          `BlockComments` nvarchar(300) NULL,
+          `SettingsJSON` longtext CHARACTER SET utf8mb4 NULL,
+          `Status` int NOT NULL,
+          CONSTRAINT `PK_UserDetails` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:35.796 +05:00 [INF] dbug: 1/9/2024 17:55:35.796 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 17:55:35.796 +05:00 [INF] dbug: 1/9/2024 17:55:35.796 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:35.796 +05:00 [INF] dbug: 1/9/2024 17:55:35.796 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:35.796 +05:00 [INF] dbug: 1/9/2024 17:55:35.796 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Products` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `CategoryID` int NOT NULL,
+          `ProductTitle` nvarchar(100) NOT NULL,
+          `ProductImagePath` nvarchar(300) NOT NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          `ProductDetails` longtext CHARACTER SET utf8mb4 NULL,
+          `ProductDetailsImagePath` nvarchar(300) NULL,
+          `variationSelectionTitle` nvarchar(100) NULL,
+          `variationSelectionItemsSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `OtherSelectionSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `Note` nvarchar(400) NULL,
+          `ProductType` int NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_Products` PRIMARY KEY (`ID`),
+          CONSTRAINT `FK_Products_Categories_CategoryID` FOREIGN KEY (`CategoryID`) REFERENCES `Categories` (`ID`) ON DELETE CASCADE
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:35.990 +05:00 [INF] Executed DbCommand (193ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Products` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `CategoryID` int NOT NULL,
+    `ProductTitle` nvarchar(100) NOT NULL,
+    `ProductImagePath` nvarchar(300) NOT NULL,
+    `ProductPrice` decimal(65,30) NOT NULL,
+    `ProductSalePrice` decimal(65,30) NULL,
+    `ProductDetails` longtext CHARACTER SET utf8mb4 NULL,
+    `ProductDetailsImagePath` nvarchar(300) NULL,
+    `variationSelectionTitle` nvarchar(100) NULL,
+    `variationSelectionItemsSerialized` longtext CHARACTER SET utf8mb4 NULL,
+    `OtherSelectionSerialized` longtext CHARACTER SET utf8mb4 NULL,
+    `Note` nvarchar(400) NULL,
+    `ProductType` int NOT NULL,
+    `Enabled` int NOT NULL,
+    CONSTRAINT `PK_Products` PRIMARY KEY (`ID`),
+    CONSTRAINT `FK_Products_Categories_CategoryID` FOREIGN KEY (`CategoryID`) REFERENCES `Categories` (`ID`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:35.990 +05:00 [INF] info: 1/9/2024 17:55:35.990 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (193ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Products` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `CategoryID` int NOT NULL,
+          `ProductTitle` nvarchar(100) NOT NULL,
+          `ProductImagePath` nvarchar(300) NOT NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          `ProductDetails` longtext CHARACTER SET utf8mb4 NULL,
+          `ProductDetailsImagePath` nvarchar(300) NULL,
+          `variationSelectionTitle` nvarchar(100) NULL,
+          `variationSelectionItemsSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `OtherSelectionSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `Note` nvarchar(400) NULL,
+          `ProductType` int NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_Products` PRIMARY KEY (`ID`),
+          CONSTRAINT `FK_Products_Categories_CategoryID` FOREIGN KEY (`CategoryID`) REFERENCES `Categories` (`ID`) ON DELETE CASCADE
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 17:55:35.990 +05:00 [INF] dbug: 1/9/2024 17:55:35.990 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 17:55:35.990 +05:00 [INF] dbug: 1/9/2024 17:55:35.990 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:35.990 +05:00 [INF] dbug: 1/9/2024 17:55:35.990 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:35.990 +05:00 [INF] dbug: 1/9/2024 17:55:35.990 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `UserDetails` (`ID`, `Avatar`, `BlockComments`, `CountryCode`, `Email`, `MobileNumber`, `Name`, `Password`, `Role`, `SettingsJSON`, `Status`, `Username`)
+      VALUES (1, NULL, NULL, NULL, NULL, NULL, 'John Doe', '2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea', 2, NULL, 1, 'admin');
+2024-01-09 17:55:36.038 +05:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `UserDetails` (`ID`, `Avatar`, `BlockComments`, `CountryCode`, `Email`, `MobileNumber`, `Name`, `Password`, `Role`, `SettingsJSON`, `Status`, `Username`)
+VALUES (1, NULL, NULL, NULL, NULL, NULL, 'John Doe', '2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea', 2, NULL, 1, 'admin');
+2024-01-09 17:55:36.038 +05:00 [INF] info: 1/9/2024 17:55:36.038 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (47ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `UserDetails` (`ID`, `Avatar`, `BlockComments`, `CountryCode`, `Email`, `MobileNumber`, `Name`, `Password`, `Role`, `SettingsJSON`, `Status`, `Username`)
+      VALUES (1, NULL, NULL, NULL, NULL, NULL, 'John Doe', '2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea', 2, NULL, 1, 'admin');
+2024-01-09 17:55:36.065 +05:00 [INF] dbug: 1/9/2024 17:55:36.065 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 17:55:36.065 +05:00 [INF] dbug: 1/9/2024 17:55:36.065 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:36.065 +05:00 [INF] dbug: 1/9/2024 17:55:36.065 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:36.065 +05:00 [INF] dbug: 1/9/2024 17:55:36.065 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_Categories_Name` ON `Categories` (`Name`);
+2024-01-09 17:55:36.244 +05:00 [INF] Executed DbCommand (178ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Categories_Name` ON `Categories` (`Name`);
+2024-01-09 17:55:36.244 +05:00 [INF] info: 1/9/2024 17:55:36.244 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (178ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_Categories_Name` ON `Categories` (`Name`);
+2024-01-09 17:55:36.244 +05:00 [INF] dbug: 1/9/2024 17:55:36.244 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 17:55:36.244 +05:00 [INF] dbug: 1/9/2024 17:55:36.244 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:36.244 +05:00 [INF] dbug: 1/9/2024 17:55:36.244 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:36.244 +05:00 [INF] dbug: 1/9/2024 17:55:36.244 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX `IX_Products_CategoryID` ON `Products` (`CategoryID`);
+2024-01-09 17:55:36.648 +05:00 [INF] Executed DbCommand (404ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Products_CategoryID` ON `Products` (`CategoryID`);
+2024-01-09 17:55:36.648 +05:00 [INF] info: 1/9/2024 17:55:36.648 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (404ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX `IX_Products_CategoryID` ON `Products` (`CategoryID`);
+2024-01-09 17:55:36.648 +05:00 [INF] dbug: 1/9/2024 17:55:36.648 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 17:55:36.648 +05:00 [INF] dbug: 1/9/2024 17:55:36.648 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:36.648 +05:00 [INF] dbug: 1/9/2024 17:55:36.648 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:36.648 +05:00 [INF] dbug: 1/9/2024 17:55:36.648 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_UserDetails_Username` ON `UserDetails` (`Username`);
+2024-01-09 17:55:36.897 +05:00 [INF] Executed DbCommand (249ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_UserDetails_Username` ON `UserDetails` (`Username`);
+2024-01-09 17:55:36.898 +05:00 [INF] info: 1/9/2024 17:55:36.898 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (249ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_UserDetails_Username` ON `UserDetails` (`Username`);
+2024-01-09 17:55:36.898 +05:00 [INF] dbug: 1/9/2024 17:55:36.898 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 17:55:36.898 +05:00 [INF] dbug: 1/9/2024 17:55:36.898 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:36.898 +05:00 [INF] dbug: 1/9/2024 17:55:36.898 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 17:55:36.898 +05:00 [INF] dbug: 1/9/2024 17:55:36.898 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+      VALUES ('20240109125527_initial', '7.0.13');
+2024-01-09 17:55:36.919 +05:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20240109125527_initial', '7.0.13');
+2024-01-09 17:55:36.919 +05:00 [INF] info: 1/9/2024 17:55:36.919 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+      VALUES ('20240109125527_initial', '7.0.13');
+2024-01-09 17:55:36.921 +05:00 [INF] dbug: 1/9/2024 17:55:36.921 RelationalEventId.TransactionCommitting[20210] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committing transaction.
+2024-01-09 17:55:36.924 +05:00 [INF] dbug: 1/9/2024 17:55:36.924 RelationalEventId.TransactionCommitted[20202] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committed transaction.
+2024-01-09 17:55:36.927 +05:00 [INF] dbug: 1/9/2024 17:55:36.927 RelationalEventId.TransactionDisposed[20204] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Disposing transaction.
+2024-01-09 17:55:36.927 +05:00 [INF] dbug: 1/9/2024 17:55:36.927 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:36.927 +05:00 [INF] dbug: 1/9/2024 17:55:36.927 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 17:55:36.930 +05:00 [INF] dbug: 1/9/2024 17:55:36.930 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'ApplicationDbContext' disposed.
+2024-01-09 17:55:36.930 +05:00 [INF] dbug: 1/9/2024 17:55:36.930 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 17:55:36.930 +05:00 [INF] dbug: 1/9/2024 17:55:36.930 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 21:34:53.742 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 21:34:53.812 +05:00 [INF] warn: 1/9/2024 21:34:53.811 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 21:34:53.996 +05:00 [INF] dbug: 1/9/2024 21:34:53.996 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.13 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:7.0.0' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled ServerVersion 8.0.34-mysql 
+2024-01-09 21:34:54.409 +05:00 [INF] dbug: 1/9/2024 21:34:54.409 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'ApplicationDbContext' disposed.
+2024-01-09 21:35:53.106 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 21:35:53.145 +05:00 [INF] warn: 1/9/2024 21:35:53.144 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 21:35:53.353 +05:00 [INF] dbug: 1/9/2024 21:35:53.353 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.13 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:7.0.0' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled ServerVersion 8.0.34-mysql 
+2024-01-09 21:35:53.374 +05:00 [INF] dbug: 1/9/2024 21:35:53.374 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 21:35:53.379 +05:00 [INF] dbug: 1/9/2024 21:35:53.379 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (3ms).
+2024-01-09 21:35:53.386 +05:00 [INF] dbug: 1/9/2024 21:35:53.386 RelationalEventId.MigrateUsingConnection[20400] (Microsoft.EntityFrameworkCore.Migrations) 
+      Migrating using database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:53.390 +05:00 [INF] dbug: 1/9/2024 21:35:53.390 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 21:35:53.390 +05:00 [INF] dbug: 1/9/2024 21:35:53.390 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2024-01-09 21:35:53.393 +05:00 [INF] dbug: 1/9/2024 21:35:53.393 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database '' on server 'localhost'.
+2024-01-09 21:35:53.464 +05:00 [INF] dbug: 1/9/2024 21:35:53.464 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database '' on server 'localhost'.
+2024-01-09 21:35:53.496 +05:00 [INF] dbug: 1/9/2024 21:35:53.496 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database '' on server 'localhost'.
+2024-01-09 21:35:53.499 +05:00 [INF] dbug: 1/9/2024 21:35:53.499 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database '' on server 'localhost' (1ms).
+2024-01-09 21:35:53.505 +05:00 [INF] dbug: 1/9/2024 21:35:53.505 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+2024-01-09 21:35:53.508 +05:00 [INF] dbug: 1/9/2024 21:35:53.508 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (2ms).
+2024-01-09 21:35:53.510 +05:00 [INF] dbug: 1/9/2024 21:35:53.510 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (5ms).
+2024-01-09 21:35:53.510 +05:00 [INF] dbug: 1/9/2024 21:35:53.510 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:53.520 +05:00 [INF] dbug: 1/9/2024 21:35:53.520 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:53.524 +05:00 [INF] dbug: 1/9/2024 21:35:53.524 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 21:35:53.536 +05:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 21:35:53.541 +05:00 [INF] info: 1/9/2024 21:35:53.541 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 21:35:53.543 +05:00 [INF] dbug: 1/9/2024 21:35:53.543 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:53.545 +05:00 [INF] dbug: 1/9/2024 21:35:53.545 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (2ms).
+2024-01-09 21:35:53.545 +05:00 [INF] dbug: 1/9/2024 21:35:53.545 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 21:35:53.545 +05:00 [INF] dbug: 1/9/2024 21:35:53.545 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2024-01-09 21:35:53.546 +05:00 [INF] dbug: 1/9/2024 21:35:53.546 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database '' on server 'localhost'.
+2024-01-09 21:35:53.547 +05:00 [INF] dbug: 1/9/2024 21:35:53.547 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database '' on server 'localhost'.
+2024-01-09 21:35:53.547 +05:00 [INF] dbug: 1/9/2024 21:35:53.547 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database '' on server 'localhost'.
+2024-01-09 21:35:53.548 +05:00 [INF] dbug: 1/9/2024 21:35:53.548 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database '' on server 'localhost' (0ms).
+2024-01-09 21:35:53.848 +05:00 [INF] dbug: 1/9/2024 21:35:53.848 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:35:53.848 +05:00 [INF] dbug: 1/9/2024 21:35:53.848 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:53.848 +05:00 [INF] dbug: 1/9/2024 21:35:53.848 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:53.848 +05:00 [INF] dbug: 1/9/2024 21:35:53.848 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:53.852 +05:00 [INF] dbug: 1/9/2024 21:35:53.852 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:53.853 +05:00 [INF] dbug: 1/9/2024 21:35:53.853 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `__EFMigrationsHistory` (
+          `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+          `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+          CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:54.085 +05:00 [INF] Executed DbCommand (223ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:54.085 +05:00 [INF] info: 1/9/2024 21:35:54.085 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (223ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `__EFMigrationsHistory` (
+          `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+          `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+          CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:54.085 +05:00 [INF] dbug: 1/9/2024 21:35:54.085 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:54.086 +05:00 [INF] dbug: 1/9/2024 21:35:54.086 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 21:35:54.087 +05:00 [INF] dbug: 1/9/2024 21:35:54.087 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 21:35:54.087 +05:00 [INF] dbug: 1/9/2024 21:35:54.087 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2024-01-09 21:35:54.088 +05:00 [INF] dbug: 1/9/2024 21:35:54.088 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database '' on server 'localhost'.
+2024-01-09 21:35:54.090 +05:00 [INF] dbug: 1/9/2024 21:35:54.090 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database '' on server 'localhost'.
+2024-01-09 21:35:54.091 +05:00 [INF] dbug: 1/9/2024 21:35:54.091 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database '' on server 'localhost'.
+2024-01-09 21:35:54.091 +05:00 [INF] dbug: 1/9/2024 21:35:54.091 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database '' on server 'localhost' (0ms).
+2024-01-09 21:35:54.091 +05:00 [INF] dbug: 1/9/2024 21:35:54.091 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+2024-01-09 21:35:54.091 +05:00 [INF] dbug: 1/9/2024 21:35:54.091 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+2024-01-09 21:35:54.091 +05:00 [INF] dbug: 1/9/2024 21:35:54.091 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-01-09 21:35:54.092 +05:00 [INF] dbug: 1/9/2024 21:35:54.092 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:54.092 +05:00 [INF] dbug: 1/9/2024 21:35:54.092 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:54.092 +05:00 [INF] dbug: 1/9/2024 21:35:54.092 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 21:35:54.099 +05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 21:35:54.099 +05:00 [INF] info: 1/9/2024 21:35:54.099 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 21:35:54.523 +05:00 [INF] dbug: 1/9/2024 21:35:54.523 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:54.523 +05:00 [INF] dbug: 1/9/2024 21:35:54.523 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 21:35:54.525 +05:00 [INF] dbug: 1/9/2024 21:35:54.525 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+2024-01-09 21:35:54.525 +05:00 [INF] dbug: 1/9/2024 21:35:54.525 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+2024-01-09 21:35:54.525 +05:00 [INF] dbug: 1/9/2024 21:35:54.525 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-01-09 21:35:54.525 +05:00 [INF] dbug: 1/9/2024 21:35:54.525 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:54.526 +05:00 [INF] dbug: 1/9/2024 21:35:54.526 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:54.526 +05:00 [INF] dbug: 1/9/2024 21:35:54.526 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `MigrationId`, `ProductVersion`
+      FROM `__EFMigrationsHistory`
+      ORDER BY `MigrationId`;
+2024-01-09 21:35:54.528 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2024-01-09 21:35:54.528 +05:00 [INF] info: 1/9/2024 21:35:54.528 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `MigrationId`, `ProductVersion`
+      FROM `__EFMigrationsHistory`
+      ORDER BY `MigrationId`;
+2024-01-09 21:35:54.531 +05:00 [INF] dbug: 1/9/2024 21:35:54.531 RelationalEventId.DataReaderClosing[20301] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Closing data reader to 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:54.532 +05:00 [INF] dbug: 1/9/2024 21:35:54.532 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader for 'halalpizza' on server 'localhost' is being disposed after spending 2ms reading results.
+2024-01-09 21:35:54.532 +05:00 [INF] dbug: 1/9/2024 21:35:54.532 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:54.532 +05:00 [INF] dbug: 1/9/2024 21:35:54.532 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 21:35:54.545 +05:00 [INF] Applying migration '20240109163454_initial'.
+2024-01-09 21:35:54.545 +05:00 [INF] info: 1/9/2024 21:35:54.545 RelationalEventId.MigrationApplying[20402] (Microsoft.EntityFrameworkCore.Migrations) 
+      Applying migration '20240109163454_initial'.
+2024-01-09 21:35:54.614 +05:00 [INF] dbug: 1/9/2024 21:35:54.614 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:54.614 +05:00 [INF] dbug: 1/9/2024 21:35:54.614 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:54.617 +05:00 [INF] dbug: 1/9/2024 21:35:54.617 RelationalEventId.TransactionStarting[20209] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Beginning transaction with isolation level 'Unspecified'.
+2024-01-09 21:35:54.620 +05:00 [INF] dbug: 1/9/2024 21:35:54.620 RelationalEventId.TransactionStarted[20200] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Began transaction with isolation level 'Unspecified'.
+2024-01-09 21:35:54.751 +05:00 [INF] dbug: 1/9/2024 21:35:54.751 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:35:54.751 +05:00 [INF] dbug: 1/9/2024 21:35:54.751 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:54.751 +05:00 [INF] dbug: 1/9/2024 21:35:54.751 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:54.751 +05:00 [INF] dbug: 1/9/2024 21:35:54.751 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      ALTER DATABASE CHARACTER SET utf8mb4;
+2024-01-09 21:35:54.762 +05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2024-01-09 21:35:54.763 +05:00 [INF] info: 1/9/2024 21:35:54.763 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      ALTER DATABASE CHARACTER SET utf8mb4;
+2024-01-09 21:35:54.763 +05:00 [INF] dbug: 1/9/2024 21:35:54.763 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:35:54.763 +05:00 [INF] dbug: 1/9/2024 21:35:54.763 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:54.763 +05:00 [INF] dbug: 1/9/2024 21:35:54.763 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:54.763 +05:00 [INF] dbug: 1/9/2024 21:35:54.763 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Addons` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `ProductTitle` nvarchar(250) NOT NULL,
+          `ProductImagePath` nvarchar(300) NOT NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          CONSTRAINT `PK_Addons` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:54.994 +05:00 [INF] Executed DbCommand (232ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Addons` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `ProductTitle` nvarchar(250) NOT NULL,
+    `ProductImagePath` nvarchar(300) NOT NULL,
+    `ProductPrice` decimal(65,30) NOT NULL,
+    `ProductSalePrice` decimal(65,30) NULL,
+    CONSTRAINT `PK_Addons` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:54.995 +05:00 [INF] info: 1/9/2024 21:35:54.995 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (232ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Addons` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `ProductTitle` nvarchar(250) NOT NULL,
+          `ProductImagePath` nvarchar(300) NOT NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          CONSTRAINT `PK_Addons` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:54.995 +05:00 [INF] dbug: 1/9/2024 21:35:54.995 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:35:54.995 +05:00 [INF] dbug: 1/9/2024 21:35:54.995 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:54.995 +05:00 [INF] dbug: 1/9/2024 21:35:54.995 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:54.995 +05:00 [INF] dbug: 1/9/2024 21:35:54.995 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Categories` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Name` nvarchar(250) NOT NULL,
+          CONSTRAINT `PK_Categories` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:55.193 +05:00 [INF] Executed DbCommand (198ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Categories` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `Name` nvarchar(250) NOT NULL,
+    CONSTRAINT `PK_Categories` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:55.193 +05:00 [INF] info: 1/9/2024 21:35:55.193 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (198ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Categories` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Name` nvarchar(250) NOT NULL,
+          CONSTRAINT `PK_Categories` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:55.193 +05:00 [INF] dbug: 1/9/2024 21:35:55.193 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:35:55.193 +05:00 [INF] dbug: 1/9/2024 21:35:55.193 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:55.193 +05:00 [INF] dbug: 1/9/2024 21:35:55.193 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:55.193 +05:00 [INF] dbug: 1/9/2024 21:35:55.193 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `SliderSettings` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Link` nvarchar(250) NULL,
+          `Path` nvarchar(300) NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_SliderSettings` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:55.393 +05:00 [INF] Executed DbCommand (200ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `SliderSettings` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `Link` nvarchar(250) NULL,
+    `Path` nvarchar(300) NOT NULL,
+    `Enabled` int NOT NULL,
+    CONSTRAINT `PK_SliderSettings` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:55.393 +05:00 [INF] info: 1/9/2024 21:35:55.393 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (200ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `SliderSettings` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Link` nvarchar(250) NULL,
+          `Path` nvarchar(300) NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_SliderSettings` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:55.393 +05:00 [INF] dbug: 1/9/2024 21:35:55.393 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:35:55.393 +05:00 [INF] dbug: 1/9/2024 21:35:55.393 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:55.393 +05:00 [INF] dbug: 1/9/2024 21:35:55.393 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:55.393 +05:00 [INF] dbug: 1/9/2024 21:35:55.393 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `UserDetails` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Avatar` longtext CHARACTER SET utf8mb4 NULL,
+          `Name` nvarchar(100) NOT NULL,
+          `Email` nvarchar(100) NULL,
+          `Username` nvarchar(100) NOT NULL,
+          `Password` nvarchar(100) NOT NULL,
+          `Role` int NOT NULL,
+          `CountryCode` nvarchar(100) NULL,
+          `MobileNumber` nvarchar(100) NULL,
+          `BlockComments` nvarchar(300) NULL,
+          `SettingsJSON` longtext CHARACTER SET utf8mb4 NULL,
+          `Status` int NOT NULL,
+          CONSTRAINT `PK_UserDetails` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:55.548 +05:00 [INF] Executed DbCommand (155ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `UserDetails` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `Avatar` longtext CHARACTER SET utf8mb4 NULL,
+    `Name` nvarchar(100) NOT NULL,
+    `Email` nvarchar(100) NULL,
+    `Username` nvarchar(100) NOT NULL,
+    `Password` nvarchar(100) NOT NULL,
+    `Role` int NOT NULL,
+    `CountryCode` nvarchar(100) NULL,
+    `MobileNumber` nvarchar(100) NULL,
+    `BlockComments` nvarchar(300) NULL,
+    `SettingsJSON` longtext CHARACTER SET utf8mb4 NULL,
+    `Status` int NOT NULL,
+    CONSTRAINT `PK_UserDetails` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:55.548 +05:00 [INF] info: 1/9/2024 21:35:55.548 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (155ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `UserDetails` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Avatar` longtext CHARACTER SET utf8mb4 NULL,
+          `Name` nvarchar(100) NOT NULL,
+          `Email` nvarchar(100) NULL,
+          `Username` nvarchar(100) NOT NULL,
+          `Password` nvarchar(100) NOT NULL,
+          `Role` int NOT NULL,
+          `CountryCode` nvarchar(100) NULL,
+          `MobileNumber` nvarchar(100) NULL,
+          `BlockComments` nvarchar(300) NULL,
+          `SettingsJSON` longtext CHARACTER SET utf8mb4 NULL,
+          `Status` int NOT NULL,
+          CONSTRAINT `PK_UserDetails` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:55.548 +05:00 [INF] dbug: 1/9/2024 21:35:55.548 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:35:55.548 +05:00 [INF] dbug: 1/9/2024 21:35:55.548 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:55.548 +05:00 [INF] dbug: 1/9/2024 21:35:55.548 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:55.548 +05:00 [INF] dbug: 1/9/2024 21:35:55.548 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Products` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `CategoryID` int NOT NULL,
+          `ProductTitle` nvarchar(100) NOT NULL,
+          `ProductImagePath` nvarchar(300) NOT NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          `ProductDetails` longtext CHARACTER SET utf8mb4 NULL,
+          `ProductDetailsImagePath` nvarchar(300) NULL,
+          `variationSelectionTitle` nvarchar(100) NULL,
+          `variationSelectionItemsSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `OtherSelectionSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `Note` nvarchar(400) NULL,
+          `ProductType` int NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_Products` PRIMARY KEY (`ID`),
+          CONSTRAINT `FK_Products_Categories_CategoryID` FOREIGN KEY (`CategoryID`) REFERENCES `Categories` (`ID`) ON DELETE CASCADE
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:55.811 +05:00 [INF] Executed DbCommand (263ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Products` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `CategoryID` int NOT NULL,
+    `ProductTitle` nvarchar(100) NOT NULL,
+    `ProductImagePath` nvarchar(300) NOT NULL,
+    `ProductPrice` decimal(65,30) NOT NULL,
+    `ProductSalePrice` decimal(65,30) NULL,
+    `ProductDetails` longtext CHARACTER SET utf8mb4 NULL,
+    `ProductDetailsImagePath` nvarchar(300) NULL,
+    `variationSelectionTitle` nvarchar(100) NULL,
+    `variationSelectionItemsSerialized` longtext CHARACTER SET utf8mb4 NULL,
+    `OtherSelectionSerialized` longtext CHARACTER SET utf8mb4 NULL,
+    `Note` nvarchar(400) NULL,
+    `ProductType` int NOT NULL,
+    `Enabled` int NOT NULL,
+    CONSTRAINT `PK_Products` PRIMARY KEY (`ID`),
+    CONSTRAINT `FK_Products_Categories_CategoryID` FOREIGN KEY (`CategoryID`) REFERENCES `Categories` (`ID`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:55.812 +05:00 [INF] info: 1/9/2024 21:35:55.811 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (263ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Products` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `CategoryID` int NOT NULL,
+          `ProductTitle` nvarchar(100) NOT NULL,
+          `ProductImagePath` nvarchar(300) NOT NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          `ProductDetails` longtext CHARACTER SET utf8mb4 NULL,
+          `ProductDetailsImagePath` nvarchar(300) NULL,
+          `variationSelectionTitle` nvarchar(100) NULL,
+          `variationSelectionItemsSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `OtherSelectionSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `Note` nvarchar(400) NULL,
+          `ProductType` int NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_Products` PRIMARY KEY (`ID`),
+          CONSTRAINT `FK_Products_Categories_CategoryID` FOREIGN KEY (`CategoryID`) REFERENCES `Categories` (`ID`) ON DELETE CASCADE
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:35:55.812 +05:00 [INF] dbug: 1/9/2024 21:35:55.812 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:35:55.812 +05:00 [INF] dbug: 1/9/2024 21:35:55.812 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:55.812 +05:00 [INF] dbug: 1/9/2024 21:35:55.812 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:55.812 +05:00 [INF] dbug: 1/9/2024 21:35:55.812 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `UserDetails` (`ID`, `Avatar`, `BlockComments`, `CountryCode`, `Email`, `MobileNumber`, `Name`, `Password`, `Role`, `SettingsJSON`, `Status`, `Username`)
+      VALUES (1, NULL, NULL, NULL, NULL, NULL, 'John Doe', '2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea', 2, NULL, 1, 'admin');
+2024-01-09 21:35:55.834 +05:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `UserDetails` (`ID`, `Avatar`, `BlockComments`, `CountryCode`, `Email`, `MobileNumber`, `Name`, `Password`, `Role`, `SettingsJSON`, `Status`, `Username`)
+VALUES (1, NULL, NULL, NULL, NULL, NULL, 'John Doe', '2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea', 2, NULL, 1, 'admin');
+2024-01-09 21:35:55.835 +05:00 [INF] info: 1/9/2024 21:35:55.835 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `UserDetails` (`ID`, `Avatar`, `BlockComments`, `CountryCode`, `Email`, `MobileNumber`, `Name`, `Password`, `Role`, `SettingsJSON`, `Status`, `Username`)
+      VALUES (1, NULL, NULL, NULL, NULL, NULL, 'John Doe', '2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea', 2, NULL, 1, 'admin');
+2024-01-09 21:35:55.895 +05:00 [INF] dbug: 1/9/2024 21:35:55.895 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:35:55.895 +05:00 [INF] dbug: 1/9/2024 21:35:55.895 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:55.895 +05:00 [INF] dbug: 1/9/2024 21:35:55.895 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:55.895 +05:00 [INF] dbug: 1/9/2024 21:35:55.895 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_Categories_Name` ON `Categories` (`Name`);
+2024-01-09 21:35:56.022 +05:00 [INF] Executed DbCommand (126ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Categories_Name` ON `Categories` (`Name`);
+2024-01-09 21:35:56.022 +05:00 [INF] info: 1/9/2024 21:35:56.022 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (126ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_Categories_Name` ON `Categories` (`Name`);
+2024-01-09 21:35:56.022 +05:00 [INF] dbug: 1/9/2024 21:35:56.022 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:35:56.022 +05:00 [INF] dbug: 1/9/2024 21:35:56.022 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:56.022 +05:00 [INF] dbug: 1/9/2024 21:35:56.022 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:56.022 +05:00 [INF] dbug: 1/9/2024 21:35:56.022 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX `IX_Products_CategoryID` ON `Products` (`CategoryID`);
+2024-01-09 21:35:56.196 +05:00 [INF] Executed DbCommand (174ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Products_CategoryID` ON `Products` (`CategoryID`);
+2024-01-09 21:35:56.196 +05:00 [INF] info: 1/9/2024 21:35:56.196 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (174ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX `IX_Products_CategoryID` ON `Products` (`CategoryID`);
+2024-01-09 21:35:56.196 +05:00 [INF] dbug: 1/9/2024 21:35:56.196 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:35:56.196 +05:00 [INF] dbug: 1/9/2024 21:35:56.196 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:56.196 +05:00 [INF] dbug: 1/9/2024 21:35:56.196 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:56.196 +05:00 [INF] dbug: 1/9/2024 21:35:56.196 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_UserDetails_Username` ON `UserDetails` (`Username`);
+2024-01-09 21:35:56.328 +05:00 [INF] Executed DbCommand (131ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_UserDetails_Username` ON `UserDetails` (`Username`);
+2024-01-09 21:35:56.328 +05:00 [INF] info: 1/9/2024 21:35:56.328 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (131ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_UserDetails_Username` ON `UserDetails` (`Username`);
+2024-01-09 21:35:56.328 +05:00 [INF] dbug: 1/9/2024 21:35:56.328 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:35:56.328 +05:00 [INF] dbug: 1/9/2024 21:35:56.328 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:56.328 +05:00 [INF] dbug: 1/9/2024 21:35:56.328 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:35:56.328 +05:00 [INF] dbug: 1/9/2024 21:35:56.328 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+      VALUES ('20240109163454_initial', '7.0.13');
+2024-01-09 21:35:56.362 +05:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20240109163454_initial', '7.0.13');
+2024-01-09 21:35:56.362 +05:00 [INF] info: 1/9/2024 21:35:56.362 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+      VALUES ('20240109163454_initial', '7.0.13');
+2024-01-09 21:35:56.363 +05:00 [INF] dbug: 1/9/2024 21:35:56.363 RelationalEventId.TransactionCommitting[20210] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committing transaction.
+2024-01-09 21:35:56.365 +05:00 [INF] dbug: 1/9/2024 21:35:56.365 RelationalEventId.TransactionCommitted[20202] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committed transaction.
+2024-01-09 21:35:56.367 +05:00 [INF] dbug: 1/9/2024 21:35:56.367 RelationalEventId.TransactionDisposed[20204] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Disposing transaction.
+2024-01-09 21:35:56.368 +05:00 [INF] dbug: 1/9/2024 21:35:56.368 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:56.368 +05:00 [INF] dbug: 1/9/2024 21:35:56.368 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 21:35:56.370 +05:00 [INF] dbug: 1/9/2024 21:35:56.370 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'ApplicationDbContext' disposed.
+2024-01-09 21:35:56.370 +05:00 [INF] dbug: 1/9/2024 21:35:56.370 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:35:56.370 +05:00 [INF] dbug: 1/9/2024 21:35:56.370 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 21:38:58.833 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 21:38:58.871 +05:00 [INF] warn: 1/9/2024 21:38:58.870 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 21:38:59.058 +05:00 [INF] dbug: 1/9/2024 21:38:59.058 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.13 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:7.0.0' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled ServerVersion 8.0.34-mysql 
+2024-01-09 21:38:59.307 +05:00 [INF] dbug: 1/9/2024 21:38:59.307 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'ApplicationDbContext' disposed.
+2024-01-09 21:39:28.142 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 21:39:28.179 +05:00 [INF] warn: 1/9/2024 21:39:28.178 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 21:39:28.374 +05:00 [INF] dbug: 1/9/2024 21:39:28.374 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.13 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:7.0.0' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled ServerVersion 8.0.34-mysql 
+2024-01-09 21:39:28.395 +05:00 [INF] dbug: 1/9/2024 21:39:28.395 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 21:39:28.401 +05:00 [INF] dbug: 1/9/2024 21:39:28.401 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (3ms).
+2024-01-09 21:39:28.412 +05:00 [INF] dbug: 1/9/2024 21:39:28.412 RelationalEventId.MigrateUsingConnection[20400] (Microsoft.EntityFrameworkCore.Migrations) 
+      Migrating using database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:28.418 +05:00 [INF] dbug: 1/9/2024 21:39:28.418 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 21:39:28.419 +05:00 [INF] dbug: 1/9/2024 21:39:28.419 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2024-01-09 21:39:28.421 +05:00 [INF] dbug: 1/9/2024 21:39:28.421 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database '' on server 'localhost'.
+2024-01-09 21:39:28.481 +05:00 [INF] dbug: 1/9/2024 21:39:28.481 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database '' on server 'localhost'.
+2024-01-09 21:39:28.516 +05:00 [INF] dbug: 1/9/2024 21:39:28.516 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database '' on server 'localhost'.
+2024-01-09 21:39:28.519 +05:00 [INF] dbug: 1/9/2024 21:39:28.519 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database '' on server 'localhost' (1ms).
+2024-01-09 21:39:28.527 +05:00 [INF] dbug: 1/9/2024 21:39:28.527 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+2024-01-09 21:39:28.530 +05:00 [INF] dbug: 1/9/2024 21:39:28.530 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (2ms).
+2024-01-09 21:39:28.531 +05:00 [INF] dbug: 1/9/2024 21:39:28.531 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (5ms).
+2024-01-09 21:39:28.531 +05:00 [INF] dbug: 1/9/2024 21:39:28.531 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:28.544 +05:00 [INF] dbug: 1/9/2024 21:39:28.544 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:28.550 +05:00 [INF] dbug: 1/9/2024 21:39:28.550 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 21:39:28.563 +05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 21:39:28.568 +05:00 [INF] info: 1/9/2024 21:39:28.568 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 21:39:28.569 +05:00 [INF] dbug: 1/9/2024 21:39:28.569 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:28.572 +05:00 [INF] dbug: 1/9/2024 21:39:28.572 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (2ms).
+2024-01-09 21:39:28.573 +05:00 [INF] dbug: 1/9/2024 21:39:28.573 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 21:39:28.573 +05:00 [INF] dbug: 1/9/2024 21:39:28.573 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2024-01-09 21:39:28.573 +05:00 [INF] dbug: 1/9/2024 21:39:28.573 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database '' on server 'localhost'.
+2024-01-09 21:39:28.574 +05:00 [INF] dbug: 1/9/2024 21:39:28.574 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database '' on server 'localhost'.
+2024-01-09 21:39:28.575 +05:00 [INF] dbug: 1/9/2024 21:39:28.575 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database '' on server 'localhost'.
+2024-01-09 21:39:28.575 +05:00 [INF] dbug: 1/9/2024 21:39:28.575 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database '' on server 'localhost' (0ms).
+2024-01-09 21:39:28.702 +05:00 [INF] dbug: 1/9/2024 21:39:28.702 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:39:28.702 +05:00 [INF] dbug: 1/9/2024 21:39:28.702 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:28.702 +05:00 [INF] dbug: 1/9/2024 21:39:28.702 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:28.702 +05:00 [INF] dbug: 1/9/2024 21:39:28.702 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:28.705 +05:00 [INF] dbug: 1/9/2024 21:39:28.705 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:28.706 +05:00 [INF] dbug: 1/9/2024 21:39:28.706 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `__EFMigrationsHistory` (
+          `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+          `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+          CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:28.902 +05:00 [INF] Executed DbCommand (196ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:28.903 +05:00 [INF] info: 1/9/2024 21:39:28.903 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (196ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `__EFMigrationsHistory` (
+          `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+          `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+          CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:28.903 +05:00 [INF] dbug: 1/9/2024 21:39:28.903 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:28.903 +05:00 [INF] dbug: 1/9/2024 21:39:28.903 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 21:39:28.904 +05:00 [INF] dbug: 1/9/2024 21:39:28.904 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 21:39:28.904 +05:00 [INF] dbug: 1/9/2024 21:39:28.904 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2024-01-09 21:39:28.904 +05:00 [INF] dbug: 1/9/2024 21:39:28.904 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database '' on server 'localhost'.
+2024-01-09 21:39:28.906 +05:00 [INF] dbug: 1/9/2024 21:39:28.906 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database '' on server 'localhost'.
+2024-01-09 21:39:28.906 +05:00 [INF] dbug: 1/9/2024 21:39:28.906 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database '' on server 'localhost'.
+2024-01-09 21:39:28.907 +05:00 [INF] dbug: 1/9/2024 21:39:28.907 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database '' on server 'localhost' (0ms).
+2024-01-09 21:39:28.907 +05:00 [INF] dbug: 1/9/2024 21:39:28.907 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+2024-01-09 21:39:28.907 +05:00 [INF] dbug: 1/9/2024 21:39:28.907 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+2024-01-09 21:39:28.907 +05:00 [INF] dbug: 1/9/2024 21:39:28.907 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-01-09 21:39:28.907 +05:00 [INF] dbug: 1/9/2024 21:39:28.907 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:28.907 +05:00 [INF] dbug: 1/9/2024 21:39:28.907 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:28.908 +05:00 [INF] dbug: 1/9/2024 21:39:28.908 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 21:39:28.911 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 21:39:28.911 +05:00 [INF] info: 1/9/2024 21:39:28.911 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 21:39:28.916 +05:00 [INF] dbug: 1/9/2024 21:39:28.916 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:28.916 +05:00 [INF] dbug: 1/9/2024 21:39:28.916 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 21:39:28.918 +05:00 [INF] dbug: 1/9/2024 21:39:28.918 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+2024-01-09 21:39:28.918 +05:00 [INF] dbug: 1/9/2024 21:39:28.918 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+2024-01-09 21:39:28.918 +05:00 [INF] dbug: 1/9/2024 21:39:28.918 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-01-09 21:39:28.918 +05:00 [INF] dbug: 1/9/2024 21:39:28.918 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:28.919 +05:00 [INF] dbug: 1/9/2024 21:39:28.919 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:28.919 +05:00 [INF] dbug: 1/9/2024 21:39:28.919 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `MigrationId`, `ProductVersion`
+      FROM `__EFMigrationsHistory`
+      ORDER BY `MigrationId`;
+2024-01-09 21:39:28.922 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2024-01-09 21:39:28.922 +05:00 [INF] info: 1/9/2024 21:39:28.922 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `MigrationId`, `ProductVersion`
+      FROM `__EFMigrationsHistory`
+      ORDER BY `MigrationId`;
+2024-01-09 21:39:28.924 +05:00 [INF] dbug: 1/9/2024 21:39:28.924 RelationalEventId.DataReaderClosing[20301] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Closing data reader to 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:28.926 +05:00 [INF] dbug: 1/9/2024 21:39:28.926 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader for 'halalpizza' on server 'localhost' is being disposed after spending 2ms reading results.
+2024-01-09 21:39:28.926 +05:00 [INF] dbug: 1/9/2024 21:39:28.926 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:28.926 +05:00 [INF] dbug: 1/9/2024 21:39:28.926 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 21:39:28.939 +05:00 [INF] Applying migration '20240109163859_initial'.
+2024-01-09 21:39:28.939 +05:00 [INF] info: 1/9/2024 21:39:28.939 RelationalEventId.MigrationApplying[20402] (Microsoft.EntityFrameworkCore.Migrations) 
+      Applying migration '20240109163859_initial'.
+2024-01-09 21:39:29.015 +05:00 [INF] dbug: 1/9/2024 21:39:29.015 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:29.016 +05:00 [INF] dbug: 1/9/2024 21:39:29.016 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:29.018 +05:00 [INF] dbug: 1/9/2024 21:39:29.018 RelationalEventId.TransactionStarting[20209] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Beginning transaction with isolation level 'Unspecified'.
+2024-01-09 21:39:29.022 +05:00 [INF] dbug: 1/9/2024 21:39:29.022 RelationalEventId.TransactionStarted[20200] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Began transaction with isolation level 'Unspecified'.
+2024-01-09 21:39:29.108 +05:00 [INF] dbug: 1/9/2024 21:39:29.108 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:39:29.108 +05:00 [INF] dbug: 1/9/2024 21:39:29.108 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:29.109 +05:00 [INF] dbug: 1/9/2024 21:39:29.109 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:29.109 +05:00 [INF] dbug: 1/9/2024 21:39:29.109 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      ALTER DATABASE CHARACTER SET utf8mb4;
+2024-01-09 21:39:29.110 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2024-01-09 21:39:29.110 +05:00 [INF] info: 1/9/2024 21:39:29.110 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      ALTER DATABASE CHARACTER SET utf8mb4;
+2024-01-09 21:39:29.110 +05:00 [INF] dbug: 1/9/2024 21:39:29.110 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:39:29.110 +05:00 [INF] dbug: 1/9/2024 21:39:29.110 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:29.110 +05:00 [INF] dbug: 1/9/2024 21:39:29.110 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:29.111 +05:00 [INF] dbug: 1/9/2024 21:39:29.111 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Addons` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `ProductTitle` nvarchar(250) NOT NULL,
+          `ProductImagePath` nvarchar(300) NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          CONSTRAINT `PK_Addons` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:29.244 +05:00 [INF] Executed DbCommand (133ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Addons` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `ProductTitle` nvarchar(250) NOT NULL,
+    `ProductImagePath` nvarchar(300) NULL,
+    `ProductPrice` decimal(65,30) NOT NULL,
+    `ProductSalePrice` decimal(65,30) NULL,
+    CONSTRAINT `PK_Addons` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:29.244 +05:00 [INF] info: 1/9/2024 21:39:29.244 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (133ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Addons` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `ProductTitle` nvarchar(250) NOT NULL,
+          `ProductImagePath` nvarchar(300) NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          CONSTRAINT `PK_Addons` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:29.244 +05:00 [INF] dbug: 1/9/2024 21:39:29.244 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:39:29.244 +05:00 [INF] dbug: 1/9/2024 21:39:29.244 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:29.244 +05:00 [INF] dbug: 1/9/2024 21:39:29.244 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:29.339 +05:00 [INF] dbug: 1/9/2024 21:39:29.339 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Categories` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Name` nvarchar(250) NOT NULL,
+          CONSTRAINT `PK_Categories` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:29.535 +05:00 [INF] Executed DbCommand (196ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Categories` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `Name` nvarchar(250) NOT NULL,
+    CONSTRAINT `PK_Categories` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:29.536 +05:00 [INF] info: 1/9/2024 21:39:29.536 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (196ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Categories` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Name` nvarchar(250) NOT NULL,
+          CONSTRAINT `PK_Categories` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:29.536 +05:00 [INF] dbug: 1/9/2024 21:39:29.536 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:39:29.536 +05:00 [INF] dbug: 1/9/2024 21:39:29.536 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:29.536 +05:00 [INF] dbug: 1/9/2024 21:39:29.536 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:29.536 +05:00 [INF] dbug: 1/9/2024 21:39:29.536 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `SliderSettings` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Link` nvarchar(250) NULL,
+          `Path` nvarchar(300) NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_SliderSettings` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:29.669 +05:00 [INF] Executed DbCommand (133ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `SliderSettings` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `Link` nvarchar(250) NULL,
+    `Path` nvarchar(300) NOT NULL,
+    `Enabled` int NOT NULL,
+    CONSTRAINT `PK_SliderSettings` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:29.669 +05:00 [INF] info: 1/9/2024 21:39:29.669 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (133ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `SliderSettings` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Link` nvarchar(250) NULL,
+          `Path` nvarchar(300) NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_SliderSettings` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:29.669 +05:00 [INF] dbug: 1/9/2024 21:39:29.669 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:39:29.669 +05:00 [INF] dbug: 1/9/2024 21:39:29.669 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:29.669 +05:00 [INF] dbug: 1/9/2024 21:39:29.669 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:29.669 +05:00 [INF] dbug: 1/9/2024 21:39:29.669 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `UserDetails` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Avatar` longtext CHARACTER SET utf8mb4 NULL,
+          `Name` nvarchar(100) NOT NULL,
+          `Email` nvarchar(100) NULL,
+          `Username` nvarchar(100) NOT NULL,
+          `Password` nvarchar(100) NOT NULL,
+          `Role` int NOT NULL,
+          `CountryCode` nvarchar(100) NULL,
+          `MobileNumber` nvarchar(100) NULL,
+          `BlockComments` nvarchar(300) NULL,
+          `SettingsJSON` longtext CHARACTER SET utf8mb4 NULL,
+          `Status` int NOT NULL,
+          CONSTRAINT `PK_UserDetails` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:29.825 +05:00 [INF] Executed DbCommand (156ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `UserDetails` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `Avatar` longtext CHARACTER SET utf8mb4 NULL,
+    `Name` nvarchar(100) NOT NULL,
+    `Email` nvarchar(100) NULL,
+    `Username` nvarchar(100) NOT NULL,
+    `Password` nvarchar(100) NOT NULL,
+    `Role` int NOT NULL,
+    `CountryCode` nvarchar(100) NULL,
+    `MobileNumber` nvarchar(100) NULL,
+    `BlockComments` nvarchar(300) NULL,
+    `SettingsJSON` longtext CHARACTER SET utf8mb4 NULL,
+    `Status` int NOT NULL,
+    CONSTRAINT `PK_UserDetails` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:29.826 +05:00 [INF] info: 1/9/2024 21:39:29.825 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (156ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `UserDetails` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Avatar` longtext CHARACTER SET utf8mb4 NULL,
+          `Name` nvarchar(100) NOT NULL,
+          `Email` nvarchar(100) NULL,
+          `Username` nvarchar(100) NOT NULL,
+          `Password` nvarchar(100) NOT NULL,
+          `Role` int NOT NULL,
+          `CountryCode` nvarchar(100) NULL,
+          `MobileNumber` nvarchar(100) NULL,
+          `BlockComments` nvarchar(300) NULL,
+          `SettingsJSON` longtext CHARACTER SET utf8mb4 NULL,
+          `Status` int NOT NULL,
+          CONSTRAINT `PK_UserDetails` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:29.826 +05:00 [INF] dbug: 1/9/2024 21:39:29.826 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:39:29.826 +05:00 [INF] dbug: 1/9/2024 21:39:29.826 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:29.880 +05:00 [INF] dbug: 1/9/2024 21:39:29.880 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (54ms).
+2024-01-09 21:39:29.880 +05:00 [INF] dbug: 1/9/2024 21:39:29.880 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Products` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `CategoryID` int NOT NULL,
+          `ProductTitle` nvarchar(100) NOT NULL,
+          `ProductImagePath` nvarchar(300) NOT NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          `ProductDetails` longtext CHARACTER SET utf8mb4 NULL,
+          `ProductDetailsImagePath` nvarchar(300) NULL,
+          `variationSelectionTitle` nvarchar(100) NULL,
+          `variationSelectionItemsSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `OtherSelectionSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `Note` nvarchar(400) NULL,
+          `ProductType` int NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_Products` PRIMARY KEY (`ID`),
+          CONSTRAINT `FK_Products_Categories_CategoryID` FOREIGN KEY (`CategoryID`) REFERENCES `Categories` (`ID`) ON DELETE CASCADE
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:30.017 +05:00 [INF] Executed DbCommand (137ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Products` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `CategoryID` int NOT NULL,
+    `ProductTitle` nvarchar(100) NOT NULL,
+    `ProductImagePath` nvarchar(300) NOT NULL,
+    `ProductPrice` decimal(65,30) NOT NULL,
+    `ProductSalePrice` decimal(65,30) NULL,
+    `ProductDetails` longtext CHARACTER SET utf8mb4 NULL,
+    `ProductDetailsImagePath` nvarchar(300) NULL,
+    `variationSelectionTitle` nvarchar(100) NULL,
+    `variationSelectionItemsSerialized` longtext CHARACTER SET utf8mb4 NULL,
+    `OtherSelectionSerialized` longtext CHARACTER SET utf8mb4 NULL,
+    `Note` nvarchar(400) NULL,
+    `ProductType` int NOT NULL,
+    `Enabled` int NOT NULL,
+    CONSTRAINT `PK_Products` PRIMARY KEY (`ID`),
+    CONSTRAINT `FK_Products_Categories_CategoryID` FOREIGN KEY (`CategoryID`) REFERENCES `Categories` (`ID`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:30.017 +05:00 [INF] info: 1/9/2024 21:39:30.017 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (137ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Products` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `CategoryID` int NOT NULL,
+          `ProductTitle` nvarchar(100) NOT NULL,
+          `ProductImagePath` nvarchar(300) NOT NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          `ProductDetails` longtext CHARACTER SET utf8mb4 NULL,
+          `ProductDetailsImagePath` nvarchar(300) NULL,
+          `variationSelectionTitle` nvarchar(100) NULL,
+          `variationSelectionItemsSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `OtherSelectionSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `Note` nvarchar(400) NULL,
+          `ProductType` int NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_Products` PRIMARY KEY (`ID`),
+          CONSTRAINT `FK_Products_Categories_CategoryID` FOREIGN KEY (`CategoryID`) REFERENCES `Categories` (`ID`) ON DELETE CASCADE
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 21:39:30.017 +05:00 [INF] dbug: 1/9/2024 21:39:30.017 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:39:30.018 +05:00 [INF] dbug: 1/9/2024 21:39:30.018 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:30.184 +05:00 [INF] dbug: 1/9/2024 21:39:30.184 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (166ms).
+2024-01-09 21:39:30.184 +05:00 [INF] dbug: 1/9/2024 21:39:30.184 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `UserDetails` (`ID`, `Avatar`, `BlockComments`, `CountryCode`, `Email`, `MobileNumber`, `Name`, `Password`, `Role`, `SettingsJSON`, `Status`, `Username`)
+      VALUES (1, NULL, NULL, NULL, NULL, NULL, 'John Doe', '2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea', 2, NULL, 1, 'admin');
+2024-01-09 21:39:30.209 +05:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `UserDetails` (`ID`, `Avatar`, `BlockComments`, `CountryCode`, `Email`, `MobileNumber`, `Name`, `Password`, `Role`, `SettingsJSON`, `Status`, `Username`)
+VALUES (1, NULL, NULL, NULL, NULL, NULL, 'John Doe', '2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea', 2, NULL, 1, 'admin');
+2024-01-09 21:39:30.209 +05:00 [INF] info: 1/9/2024 21:39:30.209 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `UserDetails` (`ID`, `Avatar`, `BlockComments`, `CountryCode`, `Email`, `MobileNumber`, `Name`, `Password`, `Role`, `SettingsJSON`, `Status`, `Username`)
+      VALUES (1, NULL, NULL, NULL, NULL, NULL, 'John Doe', '2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea', 2, NULL, 1, 'admin');
+2024-01-09 21:39:30.209 +05:00 [INF] dbug: 1/9/2024 21:39:30.209 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:39:30.209 +05:00 [INF] dbug: 1/9/2024 21:39:30.209 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:30.209 +05:00 [INF] dbug: 1/9/2024 21:39:30.209 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:30.209 +05:00 [INF] dbug: 1/9/2024 21:39:30.209 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_Categories_Name` ON `Categories` (`Name`);
+2024-01-09 21:39:30.419 +05:00 [INF] Executed DbCommand (209ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Categories_Name` ON `Categories` (`Name`);
+2024-01-09 21:39:30.419 +05:00 [INF] info: 1/9/2024 21:39:30.419 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (209ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_Categories_Name` ON `Categories` (`Name`);
+2024-01-09 21:39:30.419 +05:00 [INF] dbug: 1/9/2024 21:39:30.419 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:39:30.419 +05:00 [INF] dbug: 1/9/2024 21:39:30.419 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:30.419 +05:00 [INF] dbug: 1/9/2024 21:39:30.419 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:30.419 +05:00 [INF] dbug: 1/9/2024 21:39:30.419 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX `IX_Products_CategoryID` ON `Products` (`CategoryID`);
+2024-01-09 21:39:30.604 +05:00 [INF] Executed DbCommand (185ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Products_CategoryID` ON `Products` (`CategoryID`);
+2024-01-09 21:39:30.664 +05:00 [INF] info: 1/9/2024 21:39:30.664 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (185ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX `IX_Products_CategoryID` ON `Products` (`CategoryID`);
+2024-01-09 21:39:30.664 +05:00 [INF] dbug: 1/9/2024 21:39:30.664 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:39:30.664 +05:00 [INF] dbug: 1/9/2024 21:39:30.664 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:30.664 +05:00 [INF] dbug: 1/9/2024 21:39:30.664 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:30.664 +05:00 [INF] dbug: 1/9/2024 21:39:30.664 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_UserDetails_Username` ON `UserDetails` (`Username`);
+2024-01-09 21:39:30.829 +05:00 [INF] Executed DbCommand (165ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_UserDetails_Username` ON `UserDetails` (`Username`);
+2024-01-09 21:39:30.829 +05:00 [INF] info: 1/9/2024 21:39:30.829 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (165ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_UserDetails_Username` ON `UserDetails` (`Username`);
+2024-01-09 21:39:30.829 +05:00 [INF] dbug: 1/9/2024 21:39:30.829 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 21:39:30.829 +05:00 [INF] dbug: 1/9/2024 21:39:30.829 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:30.829 +05:00 [INF] dbug: 1/9/2024 21:39:30.829 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 21:39:30.829 +05:00 [INF] dbug: 1/9/2024 21:39:30.829 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+      VALUES ('20240109163859_initial', '7.0.13');
+2024-01-09 21:39:30.877 +05:00 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20240109163859_initial', '7.0.13');
+2024-01-09 21:39:30.878 +05:00 [INF] info: 1/9/2024 21:39:30.878 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+      VALUES ('20240109163859_initial', '7.0.13');
+2024-01-09 21:39:30.879 +05:00 [INF] dbug: 1/9/2024 21:39:30.879 RelationalEventId.TransactionCommitting[20210] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committing transaction.
+2024-01-09 21:39:30.881 +05:00 [INF] dbug: 1/9/2024 21:39:30.881 RelationalEventId.TransactionCommitted[20202] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committed transaction.
+2024-01-09 21:39:30.883 +05:00 [INF] dbug: 1/9/2024 21:39:30.883 RelationalEventId.TransactionDisposed[20204] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Disposing transaction.
+2024-01-09 21:39:30.883 +05:00 [INF] dbug: 1/9/2024 21:39:30.883 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:30.883 +05:00 [INF] dbug: 1/9/2024 21:39:30.883 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 21:39:31.044 +05:00 [INF] dbug: 1/9/2024 21:39:31.044 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'ApplicationDbContext' disposed.
+2024-01-09 21:39:31.044 +05:00 [INF] dbug: 1/9/2024 21:39:31.044 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 21:39:31.044 +05:00 [INF] dbug: 1/9/2024 21:39:31.044 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 22:03:18.356 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 22:03:18.395 +05:00 [INF] warn: 1/9/2024 22:03:18.394 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 22:03:18.578 +05:00 [INF] dbug: 1/9/2024 22:03:18.578 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.13 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:7.0.0' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled ServerVersion 8.0.34-mysql 
+2024-01-09 22:03:18.830 +05:00 [INF] dbug: 1/9/2024 22:03:18.830 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'ApplicationDbContext' disposed.
+2024-01-09 22:03:23.849 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 22:03:23.894 +05:00 [INF] warn: 1/9/2024 22:03:23.893 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-01-09 22:03:24.079 +05:00 [INF] dbug: 1/9/2024 22:03:24.079 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.13 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:7.0.0' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled ServerVersion 8.0.34-mysql 
+2024-01-09 22:03:24.100 +05:00 [INF] dbug: 1/9/2024 22:03:24.100 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 22:03:24.104 +05:00 [INF] dbug: 1/9/2024 22:03:24.104 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (3ms).
+2024-01-09 22:03:24.113 +05:00 [INF] dbug: 1/9/2024 22:03:24.113 RelationalEventId.MigrateUsingConnection[20400] (Microsoft.EntityFrameworkCore.Migrations) 
+      Migrating using database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.117 +05:00 [INF] dbug: 1/9/2024 22:03:24.117 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 22:03:24.117 +05:00 [INF] dbug: 1/9/2024 22:03:24.117 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2024-01-09 22:03:24.119 +05:00 [INF] dbug: 1/9/2024 22:03:24.119 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database '' on server 'localhost'.
+2024-01-09 22:03:24.186 +05:00 [INF] dbug: 1/9/2024 22:03:24.186 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database '' on server 'localhost'.
+2024-01-09 22:03:24.224 +05:00 [INF] dbug: 1/9/2024 22:03:24.224 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database '' on server 'localhost'.
+2024-01-09 22:03:24.227 +05:00 [INF] dbug: 1/9/2024 22:03:24.227 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database '' on server 'localhost' (1ms).
+2024-01-09 22:03:24.235 +05:00 [INF] dbug: 1/9/2024 22:03:24.235 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+2024-01-09 22:03:24.239 +05:00 [INF] dbug: 1/9/2024 22:03:24.239 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (2ms).
+2024-01-09 22:03:24.241 +05:00 [INF] dbug: 1/9/2024 22:03:24.241 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (6ms).
+2024-01-09 22:03:24.241 +05:00 [INF] dbug: 1/9/2024 22:03:24.241 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.254 +05:00 [INF] dbug: 1/9/2024 22:03:24.254 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.258 +05:00 [INF] dbug: 1/9/2024 22:03:24.258 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 22:03:24.272 +05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 22:03:24.277 +05:00 [INF] info: 1/9/2024 22:03:24.277 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 22:03:24.280 +05:00 [INF] dbug: 1/9/2024 22:03:24.280 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.282 +05:00 [INF] dbug: 1/9/2024 22:03:24.282 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (2ms).
+2024-01-09 22:03:24.283 +05:00 [INF] dbug: 1/9/2024 22:03:24.283 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 22:03:24.283 +05:00 [INF] dbug: 1/9/2024 22:03:24.283 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2024-01-09 22:03:24.283 +05:00 [INF] dbug: 1/9/2024 22:03:24.283 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database '' on server 'localhost'.
+2024-01-09 22:03:24.284 +05:00 [INF] dbug: 1/9/2024 22:03:24.284 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database '' on server 'localhost'.
+2024-01-09 22:03:24.285 +05:00 [INF] dbug: 1/9/2024 22:03:24.285 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database '' on server 'localhost'.
+2024-01-09 22:03:24.285 +05:00 [INF] dbug: 1/9/2024 22:03:24.285 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database '' on server 'localhost' (0ms).
+2024-01-09 22:03:24.432 +05:00 [INF] dbug: 1/9/2024 22:03:24.432 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 22:03:24.433 +05:00 [INF] dbug: 1/9/2024 22:03:24.433 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:24.433 +05:00 [INF] dbug: 1/9/2024 22:03:24.433 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:24.433 +05:00 [INF] dbug: 1/9/2024 22:03:24.433 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.436 +05:00 [INF] dbug: 1/9/2024 22:03:24.436 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.437 +05:00 [INF] dbug: 1/9/2024 22:03:24.437 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `__EFMigrationsHistory` (
+          `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+          `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+          CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:24.663 +05:00 [INF] Executed DbCommand (219ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:24.664 +05:00 [INF] info: 1/9/2024 22:03:24.664 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (219ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `__EFMigrationsHistory` (
+          `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+          `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+          CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:24.664 +05:00 [INF] dbug: 1/9/2024 22:03:24.664 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.664 +05:00 [INF] dbug: 1/9/2024 22:03:24.664 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 22:03:24.666 +05:00 [INF] dbug: 1/9/2024 22:03:24.666 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2024-01-09 22:03:24.666 +05:00 [INF] dbug: 1/9/2024 22:03:24.666 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+2024-01-09 22:03:24.666 +05:00 [INF] dbug: 1/9/2024 22:03:24.666 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database '' on server 'localhost'.
+2024-01-09 22:03:24.669 +05:00 [INF] dbug: 1/9/2024 22:03:24.669 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database '' on server 'localhost'.
+2024-01-09 22:03:24.670 +05:00 [INF] dbug: 1/9/2024 22:03:24.670 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database '' on server 'localhost'.
+2024-01-09 22:03:24.670 +05:00 [INF] dbug: 1/9/2024 22:03:24.670 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database '' on server 'localhost' (0ms).
+2024-01-09 22:03:24.670 +05:00 [INF] dbug: 1/9/2024 22:03:24.670 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+2024-01-09 22:03:24.671 +05:00 [INF] dbug: 1/9/2024 22:03:24.671 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+2024-01-09 22:03:24.671 +05:00 [INF] dbug: 1/9/2024 22:03:24.671 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-01-09 22:03:24.671 +05:00 [INF] dbug: 1/9/2024 22:03:24.671 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.672 +05:00 [INF] dbug: 1/9/2024 22:03:24.672 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.672 +05:00 [INF] dbug: 1/9/2024 22:03:24.672 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 22:03:24.679 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 22:03:24.679 +05:00 [INF] info: 1/9/2024 22:03:24.679 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='halalpizza' AND TABLE_NAME='__EFMigrationsHistory';
+2024-01-09 22:03:24.690 +05:00 [INF] dbug: 1/9/2024 22:03:24.690 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.690 +05:00 [INF] dbug: 1/9/2024 22:03:24.690 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 22:03:24.695 +05:00 [INF] dbug: 1/9/2024 22:03:24.695 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+2024-01-09 22:03:24.695 +05:00 [INF] dbug: 1/9/2024 22:03:24.695 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+2024-01-09 22:03:24.695 +05:00 [INF] dbug: 1/9/2024 22:03:24.695 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-01-09 22:03:24.695 +05:00 [INF] dbug: 1/9/2024 22:03:24.695 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.696 +05:00 [INF] dbug: 1/9/2024 22:03:24.696 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.697 +05:00 [INF] dbug: 1/9/2024 22:03:24.697 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `MigrationId`, `ProductVersion`
+      FROM `__EFMigrationsHistory`
+      ORDER BY `MigrationId`;
+2024-01-09 22:03:24.702 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2024-01-09 22:03:24.702 +05:00 [INF] info: 1/9/2024 22:03:24.702 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `MigrationId`, `ProductVersion`
+      FROM `__EFMigrationsHistory`
+      ORDER BY `MigrationId`;
+2024-01-09 22:03:24.707 +05:00 [INF] dbug: 1/9/2024 22:03:24.707 RelationalEventId.DataReaderClosing[20301] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Closing data reader to 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.710 +05:00 [INF] dbug: 1/9/2024 22:03:24.710 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader for 'halalpizza' on server 'localhost' is being disposed after spending 4ms reading results.
+2024-01-09 22:03:24.710 +05:00 [INF] dbug: 1/9/2024 22:03:24.710 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.711 +05:00 [INF] dbug: 1/9/2024 22:03:24.711 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 22:03:24.728 +05:00 [INF] Applying migration '20240109170318_initial'.
+2024-01-09 22:03:24.729 +05:00 [INF] info: 1/9/2024 22:03:24.729 RelationalEventId.MigrationApplying[20402] (Microsoft.EntityFrameworkCore.Migrations) 
+      Applying migration '20240109170318_initial'.
+2024-01-09 22:03:24.801 +05:00 [INF] dbug: 1/9/2024 22:03:24.801 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.802 +05:00 [INF] dbug: 1/9/2024 22:03:24.802 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:24.804 +05:00 [INF] dbug: 1/9/2024 22:03:24.804 RelationalEventId.TransactionStarting[20209] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Beginning transaction with isolation level 'Unspecified'.
+2024-01-09 22:03:24.808 +05:00 [INF] dbug: 1/9/2024 22:03:24.808 RelationalEventId.TransactionStarted[20200] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Began transaction with isolation level 'Unspecified'.
+2024-01-09 22:03:24.906 +05:00 [INF] dbug: 1/9/2024 22:03:24.906 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 22:03:24.906 +05:00 [INF] dbug: 1/9/2024 22:03:24.906 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:24.906 +05:00 [INF] dbug: 1/9/2024 22:03:24.906 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:24.906 +05:00 [INF] dbug: 1/9/2024 22:03:24.906 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      ALTER DATABASE CHARACTER SET utf8mb4;
+2024-01-09 22:03:24.907 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2024-01-09 22:03:24.908 +05:00 [INF] info: 1/9/2024 22:03:24.908 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      ALTER DATABASE CHARACTER SET utf8mb4;
+2024-01-09 22:03:24.908 +05:00 [INF] dbug: 1/9/2024 22:03:24.908 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 22:03:24.908 +05:00 [INF] dbug: 1/9/2024 22:03:24.908 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:24.908 +05:00 [INF] dbug: 1/9/2024 22:03:24.908 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:24.908 +05:00 [INF] dbug: 1/9/2024 22:03:24.908 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Addons` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `ProductTitle` nvarchar(250) NOT NULL,
+          `ProductImagePath` nvarchar(300) NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          CONSTRAINT `PK_Addons` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:25.064 +05:00 [INF] Executed DbCommand (156ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Addons` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `ProductTitle` nvarchar(250) NOT NULL,
+    `ProductImagePath` nvarchar(300) NULL,
+    `ProductPrice` decimal(65,30) NOT NULL,
+    `ProductSalePrice` decimal(65,30) NULL,
+    CONSTRAINT `PK_Addons` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:25.064 +05:00 [INF] info: 1/9/2024 22:03:25.064 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (156ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Addons` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `ProductTitle` nvarchar(250) NOT NULL,
+          `ProductImagePath` nvarchar(300) NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          CONSTRAINT `PK_Addons` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:25.065 +05:00 [INF] dbug: 1/9/2024 22:03:25.065 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 22:03:25.065 +05:00 [INF] dbug: 1/9/2024 22:03:25.065 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:25.065 +05:00 [INF] dbug: 1/9/2024 22:03:25.065 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:25.200 +05:00 [INF] dbug: 1/9/2024 22:03:25.200 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Categories` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Name` nvarchar(250) NOT NULL,
+          CONSTRAINT `PK_Categories` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:25.403 +05:00 [INF] Executed DbCommand (204ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Categories` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `Name` nvarchar(250) NOT NULL,
+    CONSTRAINT `PK_Categories` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:25.403 +05:00 [INF] info: 1/9/2024 22:03:25.403 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (204ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Categories` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Name` nvarchar(250) NOT NULL,
+          CONSTRAINT `PK_Categories` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:25.403 +05:00 [INF] dbug: 1/9/2024 22:03:25.403 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 22:03:25.404 +05:00 [INF] dbug: 1/9/2024 22:03:25.404 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:25.404 +05:00 [INF] dbug: 1/9/2024 22:03:25.404 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:25.404 +05:00 [INF] dbug: 1/9/2024 22:03:25.404 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `SliderSettings` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Link` nvarchar(250) NULL,
+          `Path` nvarchar(300) NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_SliderSettings` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:25.580 +05:00 [INF] Executed DbCommand (176ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `SliderSettings` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `Link` nvarchar(250) NULL,
+    `Path` nvarchar(300) NOT NULL,
+    `Enabled` int NOT NULL,
+    CONSTRAINT `PK_SliderSettings` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:25.580 +05:00 [INF] info: 1/9/2024 22:03:25.580 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (176ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `SliderSettings` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Link` nvarchar(250) NULL,
+          `Path` nvarchar(300) NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_SliderSettings` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:25.580 +05:00 [INF] dbug: 1/9/2024 22:03:25.580 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 22:03:25.580 +05:00 [INF] dbug: 1/9/2024 22:03:25.580 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:25.580 +05:00 [INF] dbug: 1/9/2024 22:03:25.580 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:25.580 +05:00 [INF] dbug: 1/9/2024 22:03:25.580 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `UserDetails` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Avatar` longtext CHARACTER SET utf8mb4 NULL,
+          `Name` nvarchar(100) NOT NULL,
+          `Email` nvarchar(100) NULL,
+          `Username` nvarchar(100) NOT NULL,
+          `Password` nvarchar(100) NOT NULL,
+          `Role` int NOT NULL,
+          `CountryCode` nvarchar(100) NULL,
+          `MobileNumber` nvarchar(100) NULL,
+          `BlockComments` nvarchar(300) NULL,
+          `SettingsJSON` longtext CHARACTER SET utf8mb4 NULL,
+          `Status` int NOT NULL,
+          CONSTRAINT `PK_UserDetails` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:25.911 +05:00 [INF] Executed DbCommand (331ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `UserDetails` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `Avatar` longtext CHARACTER SET utf8mb4 NULL,
+    `Name` nvarchar(100) NOT NULL,
+    `Email` nvarchar(100) NULL,
+    `Username` nvarchar(100) NOT NULL,
+    `Password` nvarchar(100) NOT NULL,
+    `Role` int NOT NULL,
+    `CountryCode` nvarchar(100) NULL,
+    `MobileNumber` nvarchar(100) NULL,
+    `BlockComments` nvarchar(300) NULL,
+    `SettingsJSON` longtext CHARACTER SET utf8mb4 NULL,
+    `Status` int NOT NULL,
+    CONSTRAINT `PK_UserDetails` PRIMARY KEY (`ID`)
+) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:25.911 +05:00 [INF] info: 1/9/2024 22:03:25.911 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (331ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `UserDetails` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `Avatar` longtext CHARACTER SET utf8mb4 NULL,
+          `Name` nvarchar(100) NOT NULL,
+          `Email` nvarchar(100) NULL,
+          `Username` nvarchar(100) NOT NULL,
+          `Password` nvarchar(100) NOT NULL,
+          `Role` int NOT NULL,
+          `CountryCode` nvarchar(100) NULL,
+          `MobileNumber` nvarchar(100) NULL,
+          `BlockComments` nvarchar(300) NULL,
+          `SettingsJSON` longtext CHARACTER SET utf8mb4 NULL,
+          `Status` int NOT NULL,
+          CONSTRAINT `PK_UserDetails` PRIMARY KEY (`ID`)
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:25.911 +05:00 [INF] dbug: 1/9/2024 22:03:25.911 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 22:03:25.911 +05:00 [INF] dbug: 1/9/2024 22:03:25.911 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:25.911 +05:00 [INF] dbug: 1/9/2024 22:03:25.911 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:25.911 +05:00 [INF] dbug: 1/9/2024 22:03:25.911 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Products` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `CategoryID` int NOT NULL,
+          `ProductTitle` nvarchar(100) NOT NULL,
+          `ProductImagePath` nvarchar(300) NOT NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          `ProductDetails` longtext CHARACTER SET utf8mb4 NULL,
+          `ProductDetailsImagePath` nvarchar(300) NULL,
+          `variationSelectionTitle` nvarchar(100) NULL,
+          `variationSelectionItemsSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `OtherSelectionSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `Note` nvarchar(400) NULL,
+          `ProductType` int NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_Products` PRIMARY KEY (`ID`),
+          CONSTRAINT `FK_Products_Categories_CategoryID` FOREIGN KEY (`CategoryID`) REFERENCES `Categories` (`ID`) ON DELETE CASCADE
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:26.088 +05:00 [INF] Executed DbCommand (177ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Products` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `CategoryID` int NOT NULL,
+    `ProductTitle` nvarchar(100) NOT NULL,
+    `ProductImagePath` nvarchar(300) NOT NULL,
+    `ProductPrice` decimal(65,30) NOT NULL,
+    `ProductSalePrice` decimal(65,30) NULL,
+    `ProductDetails` longtext CHARACTER SET utf8mb4 NULL,
+    `ProductDetailsImagePath` nvarchar(300) NULL,
+    `variationSelectionTitle` nvarchar(100) NULL,
+    `variationSelectionItemsSerialized` longtext CHARACTER SET utf8mb4 NULL,
+    `OtherSelectionSerialized` longtext CHARACTER SET utf8mb4 NULL,
+    `Note` nvarchar(400) NULL,
+    `ProductType` int NOT NULL,
+    `Enabled` int NOT NULL,
+    CONSTRAINT `PK_Products` PRIMARY KEY (`ID`),
+    CONSTRAINT `FK_Products_Categories_CategoryID` FOREIGN KEY (`CategoryID`) REFERENCES `Categories` (`ID`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:26.088 +05:00 [INF] info: 1/9/2024 22:03:26.088 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (177ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE `Products` (
+          `ID` int NOT NULL AUTO_INCREMENT,
+          `CategoryID` int NOT NULL,
+          `ProductTitle` nvarchar(100) NOT NULL,
+          `ProductImagePath` nvarchar(300) NOT NULL,
+          `ProductPrice` decimal(65,30) NOT NULL,
+          `ProductSalePrice` decimal(65,30) NULL,
+          `ProductDetails` longtext CHARACTER SET utf8mb4 NULL,
+          `ProductDetailsImagePath` nvarchar(300) NULL,
+          `variationSelectionTitle` nvarchar(100) NULL,
+          `variationSelectionItemsSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `OtherSelectionSerialized` longtext CHARACTER SET utf8mb4 NULL,
+          `Note` nvarchar(400) NULL,
+          `ProductType` int NOT NULL,
+          `Enabled` int NOT NULL,
+          CONSTRAINT `PK_Products` PRIMARY KEY (`ID`),
+          CONSTRAINT `FK_Products_Categories_CategoryID` FOREIGN KEY (`CategoryID`) REFERENCES `Categories` (`ID`) ON DELETE CASCADE
+      ) CHARACTER SET=utf8mb4;
+2024-01-09 22:03:26.088 +05:00 [INF] dbug: 1/9/2024 22:03:26.088 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 22:03:26.089 +05:00 [INF] dbug: 1/9/2024 22:03:26.089 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:26.089 +05:00 [INF] dbug: 1/9/2024 22:03:26.089 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:26.089 +05:00 [INF] dbug: 1/9/2024 22:03:26.089 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `UserDetails` (`ID`, `Avatar`, `BlockComments`, `CountryCode`, `Email`, `MobileNumber`, `Name`, `Password`, `Role`, `SettingsJSON`, `Status`, `Username`)
+      VALUES (1, NULL, NULL, NULL, NULL, NULL, 'John Doe', '2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea', 2, NULL, 1, 'admin');
+2024-01-09 22:03:26.115 +05:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `UserDetails` (`ID`, `Avatar`, `BlockComments`, `CountryCode`, `Email`, `MobileNumber`, `Name`, `Password`, `Role`, `SettingsJSON`, `Status`, `Username`)
+VALUES (1, NULL, NULL, NULL, NULL, NULL, 'John Doe', '2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea', 2, NULL, 1, 'admin');
+2024-01-09 22:03:26.115 +05:00 [INF] info: 1/9/2024 22:03:26.115 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (26ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `UserDetails` (`ID`, `Avatar`, `BlockComments`, `CountryCode`, `Email`, `MobileNumber`, `Name`, `Password`, `Role`, `SettingsJSON`, `Status`, `Username`)
+      VALUES (1, NULL, NULL, NULL, NULL, NULL, 'John Doe', '2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea', 2, NULL, 1, 'admin');
+2024-01-09 22:03:26.189 +05:00 [INF] dbug: 1/9/2024 22:03:26.189 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 22:03:26.189 +05:00 [INF] dbug: 1/9/2024 22:03:26.189 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:26.189 +05:00 [INF] dbug: 1/9/2024 22:03:26.189 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:26.189 +05:00 [INF] dbug: 1/9/2024 22:03:26.189 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_Categories_Name` ON `Categories` (`Name`);
+2024-01-09 22:03:26.317 +05:00 [INF] Executed DbCommand (127ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Categories_Name` ON `Categories` (`Name`);
+2024-01-09 22:03:26.317 +05:00 [INF] info: 1/9/2024 22:03:26.317 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (127ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_Categories_Name` ON `Categories` (`Name`);
+2024-01-09 22:03:26.317 +05:00 [INF] dbug: 1/9/2024 22:03:26.317 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 22:03:26.317 +05:00 [INF] dbug: 1/9/2024 22:03:26.317 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:26.317 +05:00 [INF] dbug: 1/9/2024 22:03:26.317 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:26.317 +05:00 [INF] dbug: 1/9/2024 22:03:26.317 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX `IX_Products_CategoryID` ON `Products` (`CategoryID`);
+2024-01-09 22:03:26.508 +05:00 [INF] Executed DbCommand (191ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Products_CategoryID` ON `Products` (`CategoryID`);
+2024-01-09 22:03:26.508 +05:00 [INF] info: 1/9/2024 22:03:26.508 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (191ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX `IX_Products_CategoryID` ON `Products` (`CategoryID`);
+2024-01-09 22:03:26.508 +05:00 [INF] dbug: 1/9/2024 22:03:26.508 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 22:03:26.508 +05:00 [INF] dbug: 1/9/2024 22:03:26.508 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:26.508 +05:00 [INF] dbug: 1/9/2024 22:03:26.508 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:26.508 +05:00 [INF] dbug: 1/9/2024 22:03:26.508 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_UserDetails_Username` ON `UserDetails` (`Username`);
+2024-01-09 22:03:26.608 +05:00 [INF] Executed DbCommand (100ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_UserDetails_Username` ON `UserDetails` (`Username`);
+2024-01-09 22:03:26.608 +05:00 [INF] info: 1/9/2024 22:03:26.608 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (100ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX `IX_UserDetails_Username` ON `UserDetails` (`Username`);
+2024-01-09 22:03:26.621 +05:00 [INF] dbug: 1/9/2024 22:03:26.621 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-09 22:03:26.621 +05:00 [INF] dbug: 1/9/2024 22:03:26.621 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:26.621 +05:00 [INF] dbug: 1/9/2024 22:03:26.621 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-09 22:03:26.622 +05:00 [INF] dbug: 1/9/2024 22:03:26.622 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+      VALUES ('20240109170318_initial', '7.0.13');
+2024-01-09 22:03:26.648 +05:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20240109170318_initial', '7.0.13');
+2024-01-09 22:03:26.649 +05:00 [INF] info: 1/9/2024 22:03:26.648 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+      VALUES ('20240109170318_initial', '7.0.13');
+2024-01-09 22:03:26.651 +05:00 [INF] dbug: 1/9/2024 22:03:26.651 RelationalEventId.TransactionCommitting[20210] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committing transaction.
+2024-01-09 22:03:26.653 +05:00 [INF] dbug: 1/9/2024 22:03:26.653 RelationalEventId.TransactionCommitted[20202] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committed transaction.
+2024-01-09 22:03:26.655 +05:00 [INF] dbug: 1/9/2024 22:03:26.655 RelationalEventId.TransactionDisposed[20204] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Disposing transaction.
+2024-01-09 22:03:26.655 +05:00 [INF] dbug: 1/9/2024 22:03:26.655 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:26.655 +05:00 [INF] dbug: 1/9/2024 22:03:26.655 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'halalpizza' on server 'localhost' (0ms).
+2024-01-09 22:03:26.657 +05:00 [INF] dbug: 1/9/2024 22:03:26.657 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'ApplicationDbContext' disposed.
+2024-01-09 22:03:26.658 +05:00 [INF] dbug: 1/9/2024 22:03:26.658 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'halalpizza' on server 'localhost'.
+2024-01-09 22:03:26.658 +05:00 [INF] dbug: 1/9/2024 22:03:26.658 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'halalpizza' on server 'localhost' (0ms).
